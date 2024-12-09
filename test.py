@@ -7,11 +7,11 @@ from dotenv import load_dotenv
 import os
 
 # .env 파일 로드
-load_dotenv()
+env_path = "../.env"
+load_dotenv(env_path)
 
 # OpenAI API 키 설정
 api_key = os.getenv("OPENAI_API_KEY")
-print("API Key:", api_key)
 
 # 레시피 데이터 모델 정의
 class Recipe(BaseModel):
