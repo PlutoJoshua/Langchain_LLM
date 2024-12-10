@@ -1,5 +1,7 @@
 from langchain import hub
 from langchain.agents import AgentExecutor, create_react_agent
+# use function calling
+# from langchain.agents import AgentExecutor, create_openai_functions_agent
 from langchain_community.agent_toolkits.load_tools import load_tools
 from langchain_openai import ChatOpenAI
 from dotenv import load_dotenv
@@ -24,6 +26,8 @@ prompt = hub.pull("hwchase17/react")
 # react agent 생성
 agent = create_react_agent(llm, tools, prompt)
 
+# function calling
+# agent = create_openai_functions_agent(llm, tools, prompt)
 # agent 실행기 생성
 agent_executor = AgentExecutor(agent=agent, tools=tools, verbose=True)
 
