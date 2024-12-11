@@ -3,10 +3,8 @@ import logging
 import os
 import re
 import time
-from datetime import timedelta
 from typing import Any
 from dotenv import load_dotenv
-from langchain.memory import ConversationBufferMemory
 from langchain_core.callbacks import BaseCallbackHandler
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.outputs import LLMResult
@@ -32,6 +30,7 @@ app = App(
     process_before_response=True,
 )
 
+# 대화 기록을 저장할 딕셔너리
 thread_histories = {}
 
 class SlackStreamingCallbackHandler(BaseCallbackHandler):
@@ -45,14 +44,15 @@ class SlackStreamingCallbackHandler(BaseCallbackHandler):
 
         self.update_count = 0
 
-    def om_llm_new_token(self, token: str, **kwargs) -> None:
+    def on_llm_new_token(self, token: str, **kwargs) -> None:
         self.message += token
+
         now = time.time()
         if now - self.last_send_time > self.interval:
             app.client.chat_update(
                 channel=self.channel, ts=self.ts, text=f'{self.message}\n\nTyping...'
             )
-            self.last._send_time = now
+            self.last_send_time = now
             self.update_count += 1
 
             if self.update_count / 10 > self.interval:
@@ -60,17 +60,25 @@ class SlackStreamingCallbackHandler(BaseCallbackHandler):
 
     def on_llm_end(self, response: LLMResult, **kwargs: Any) -> Any:
         message_context = "OpenAI API에서 생성되는 정보는 부정확하거나 부적절할 수 있으며, 우리의 견해를 나타내지 않습니다."
+        
+        # LLMResult에서 생성된 메시지 추출
+        if response.generations and len(response.generations) > 0:
+            self.message = ''.join([gen.text for gen in response.generations[0]])  # 첫 번째 생성된 텍스트를 가져옴
+        else:
+            self.message = "No message generated."  # 기본 메시지 설정
+
         message_blocks = [
-            {"type": "section", "text": {"type": "mrkdwn", "text": self.message}},
+            {"type": "section", "text": {"type": "mrkdwn", "text": self.message}},  # text 필드 확인
             {"type": "divider"},
-            {"type":"context",
-             "elements": [{"type": "mrkdwn", "text": message_context}],
-             },
+            {"type": "context",
+            "elements": [{"type": "mrkdwn", "text": message_context}],
+            },
         ]
+        
         app.client.chat_update(
             channel=self.channel,
             ts=self.ts,
-            text=self.message,
+            text=self.message,  # text 인자 추가
             blocks=message_blocks
         )
 
@@ -78,39 +86,31 @@ def handle_mention(event, say):
     channel = event["channel"]
     thread_ts = event["ts"]
     message = re.sub("<@.*>", "", event["text"])
-
-    id_ts = event["ts"]
-    if "thread_ts" not in thread_histories:
-        thread_histories["tread_ts"] = ConversationBufferMemory
-
-    memory = ConversationBufferMemory()
-
+    if thread_ts not in thread_histories:
+        thread_histories[thread_ts] = []
+    memory = thread_histories[thread_ts]
     result = say("\n\nTyping...", thread_ts=thread_ts)
     ts = result["ts"]
-
+    # LLM 호출 및 메시지 처리
     prompt = ChatPromptTemplate.from_messages(
         [
             ("system", "You are good assistant."),
-            (MessagesPlaceholder(variable_neame="chat_history")),
+            (MessagesPlaceholder(variable_name="chat_history")),
             ("user", "{input}")
         ]
     )
-
     callback = SlackStreamingCallbackHandler(channel=channel, ts=ts)
-
     llm = ChatOpenAI(
         model_name='gpt-4o-mini',
         temperature=0,
         streaming=True,
         callbacks=[callback]
     )
-
     chain = prompt | llm | StrOutputParser()
-
-    ai_message = chain.invoke({"input": message, "chat_history": memory.chat_memory.messages})
-
-    memory.add_user_message(message)
-    memory.add_ai_message(ai_message)
+    ai_message = chain.invoke({"input": message, "chat_history": memory})
+    # 사용자 메시지와 AI 메시지를 리스트에 추가
+    memory.append({"role": "user", "content": message})
+    memory.append({"role": "ai", "content": ai_message})
 
 def just_ack(ack):
     ack()
