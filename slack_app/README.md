@@ -17,3 +17,6 @@
 
 ## 답변 실패
 ![](https://github.com/PlutoJoshua/Langchain_LLM/blob/main/slack_app/photo/5.png?raw=true)
+
+## streaming(0.5 sec)
+![](https://github.com/PlutoJoshua/Langchain_LLM/blob/main/slack_app/photo/6.png?raw=true)
