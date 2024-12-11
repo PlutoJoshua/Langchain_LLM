@@ -10,10 +10,10 @@
 ![](https://github.com/PlutoJoshua/Langchain_LLM/blob/main/slack_app/photo/2.png?raw=true)
 
 ## question
-![](https://github.com/PlutoJoshua/Langchain_LLM/blob/main/slaxk_app/photo/3.png?raw=true)
+![](https://github.com/PlutoJoshua/Langchain_LLM/blob/main/slack_app/photo/3.png?raw=true)
 
 ## 답변 대기
-![](https://github.com/PlutoJoshua/Langchain_LLM/blob/main/slaxk_app/photo/4.png?raw=true)
+![](https://github.com/PlutoJoshua/Langchain_LLM/blob/main/slack_app/photo/4.png?raw=true)
 
 ## 답변 실패
-![](https://github.com/PlutoJoshua/Langchain_LLM/blob/main/slaxk_app/photo/4.png?raw=true)
+![](https://github.com/PlutoJoshua/Langchain_LLM/blob/main/slack_app/photo/5.png?raw=true)
