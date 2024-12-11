@@ -4,16 +4,16 @@
 - 자세한 제작 과정은 velog에 업로드 예정
 
 ## 기본 화면
-![](https://github.com/PlutoJoshua/Langchain_LLM/blob/main/slack_app/photo/1.PNG?raw=true)
+![](https://github.com/PlutoJoshua/Langchain_LLM/blob/main/slack_app/photo/1.png?raw=true)
 
 ## app mention
-![](https://github.com/PlutoJoshua/Langchain_LLM/blob/main/slack_app/photo/2.PNG?raw=true)
+![](https://github.com/PlutoJoshua/Langchain_LLM/blob/main/slack_app/photo/2.png?raw=true)
 
 ## question
-![](https://github.com/PlutoJoshua/Langchain_LLM/blob/main/slaxk_app/photo/3.PNG?raw=true)
+![](https://github.com/PlutoJoshua/Langchain_LLM/blob/main/slaxk_app/photo/3.png?raw=true)
 
 ## 답변 대기
-![](https://github.com/PlutoJoshua/Langchain_LLM/blob/main/slaxk_app/photo/4.PNG?raw=true)
+![](https://github.com/PlutoJoshua/Langchain_LLM/blob/main/slaxk_app/photo/4.png?raw=true)
 
 ## 답변 실패
-![](https://github.com/PlutoJoshua/Langchain_LLM/blob/main/slaxk_app/photo/4.PNG?raw=true)
+![](https://github.com/PlutoJoshua/Langchain_LLM/blob/main/slaxk_app/photo/4.png?raw=true)
