@@ -1,0 +1,6 @@
+langchain
+langchain-community
+langchain-openai
+slack-bolt
+python-dotenv
+pinecone-client
