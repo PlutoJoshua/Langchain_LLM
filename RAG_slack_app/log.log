@@ -1,0 +1,631 @@
+2024-12-12 15:05:12,944 - INFO - A new session has been established (session id: 9ec9d514-a12f-40ed-9203-a4f66039d770)
+2024-12-12 15:05:12,945 - INFO - Bolt app is running!
+2024-12-12 15:05:13,037 - INFO - Starting to receive messages from a new connection (session id: 9ec9d514-a12f-40ed-9203-a4f66039d770)
+2024-12-12 15:05:55,717 - INFO - User:  what is NLP?
+2024-12-12 15:05:59,329 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\JOSHUA\\miniconda3\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-12 15:05:59,331 - INFO - Looking for plugins in pinecone_plugins.inference
+2024-12-12 15:05:59,426 - INFO - Installing plugin inference into Pinecone
+2024-12-12 15:06:10,852 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-12 15:06:13,019 - INFO - Retrieved documents: Natural Language ProcessingSpring, 2024
+What is Natural Language Processing?¢®In a nutshell, NLP consists in handling the complexities of natural languages ¡°to do something¡±lRaw text / speech \xe0Structured informationlRaw text / speech \xe0(Controlled) Text/Speech¢®In this course, we will focus on textual data
+
+Natural Language ProcessingSpring, 2024
+Brief History of NLP
+
+Natural Language ProcessingSpring, 2024
+Why Natural Language Processing?¢®What do we use language for?lWe communicateusing languagelWe think(partly) with languagelWe tell stories in languagelWe build Scientific Theories with languagelWe make friends/build relationshipswith language¢®Why NLP?lAccess Knowledge (search engine, recommender system, and so on)lCommunicate(e.g., Translation)lLinguistics and Cognitive Sciences (AnalyseLanguages themselves)
+
+Natural Language ProcessingSpring, 2024
+How do we solve an NLP Problem?¢®Each NLP Problem is unique\xe0No universal method to solve them all\xe0Have a toolkit in mind of methods (symbolic, statistics and deep learning based)¢®NLP Engineering: Find what works best for your given method based on what has been done already in the literature, by colleagues¡¦¢®NLP Research: Find a better way to do (more accurate, cheaper, faster ¡¦)
+2024-12-12 15:06:13,591 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 15:06:15,398 - INFO - AI massage: Natural Language Processing (NLP) is a field that involves handling the complexities of natural languages to achieve specific goals. It encompasses the transformation of raw text or speech into structured information or controlled text/speech. In this course, the focus will be primarily on textual data.
+2024-12-12 15:06:15,401 - INFO - chat_history: []
+2024-12-12 15:07:02,885 - INFO - User:  hum,, so What is proprocessing?
+2024-12-12 15:07:05,118 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\JOSHUA\\miniconda3\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-12 15:07:05,120 - INFO - Looking for plugins in pinecone_plugins.inference
+2024-12-12 15:07:05,120 - INFO - Installing plugin inference into Pinecone
+2024-12-12 15:07:13,343 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-12 15:07:16,743 - INFO - Retrieved documents: Natural Language ProcessingSpring, 2024
+What is Natural Language Processing?¢®In a nutshell, NLP consists in handling the complexities of natural languages ¡°to do something¡±lRaw text / speech \xe0Structured informationlRaw text / speech \xe0(Controlled) Text/Speech¢®In this course, we will focus on textual data
+
+Natural Language ProcessingIntroduction to NLP
+Junyeong KimDept. of AI, Chung-AngUniversity
+
+Natural Language ProcessingSpring, 2024
+Tokenization¢®Definition: Tokenization consists in segmenting raw textual data into tokens:¢®Can be framed as a character level tasklInput: This is Natural Language Processing LecturelOutput: This / is / Natural / Language / Processing / Lecture¢®Easy task for most languages and domainslCan be very complex in some cases (e.g., Chinese, Social Media¡¦)
+
+Natural Language ProcessingSpring, 2024
+Why Natural Language Processing?¢®Amount of online textual data ¡¦l70 billion web-pages online (1.9 billion websites)l55 million Wikipedia articles¢®Data growing much faster then ever ¡¦l9000 tweets/secondl3 million mail / second (60% spam)
+2024-12-12 15:07:17,588 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 15:07:19,902 - INFO - AI massage: Preprocessing in the context of Natural Language Processing (NLP) refers to the steps taken to clean and prepare raw textual data before it is analyzed or processed further. This can include tasks such as tokenization, removing stop words, stemming or lemmatization, and normalizing text. The goal of preprocessing is to transform the raw text into a structured format that can be more easily understood and utilized by NLP algorithms.
+2024-12-12 15:07:19,903 - INFO - chat_history: []
+2024-12-12 15:12:14,405 - INFO - A new session has been established (session id: 79d80351-aad8-4199-b05e-5454861b15bc)
+2024-12-12 15:12:14,406 - INFO - Bolt app is running!
+2024-12-12 15:12:14,475 - INFO - Starting to receive messages from a new connection (session id: 79d80351-aad8-4199-b05e-5454861b15bc)
+2024-12-12 15:13:10,440 - INFO - User:  what is NLP?
+2024-12-12 15:13:13,993 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\JOSHUA\\miniconda3\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-12 15:13:13,994 - INFO - Looking for plugins in pinecone_plugins.inference
+2024-12-12 15:13:14,070 - INFO - Installing plugin inference into Pinecone
+2024-12-12 15:13:24,665 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-12 15:13:26,953 - INFO - Retrieved documents: Natural Language ProcessingSpring, 2024
+What is Natural Language Processing?¢®In a nutshell, NLP consists in handling the complexities of natural languages ¡°to do something¡±lRaw text / speech \xe0Structured informationlRaw text / speech \xe0(Controlled) Text/Speech¢®In this course, we will focus on textual data
+
+Natural Language ProcessingSpring, 2024
+Brief History of NLP
+
+Natural Language ProcessingSpring, 2024
+Why Natural Language Processing?¢®What do we use language for?lWe communicateusing languagelWe think(partly) with languagelWe tell stories in languagelWe build Scientific Theories with languagelWe make friends/build relationshipswith language¢®Why NLP?lAccess Knowledge (search engine, recommender system, and so on)lCommunicate(e.g., Translation)lLinguistics and Cognitive Sciences (AnalyseLanguages themselves)
+
+Natural Language ProcessingSpring, 2024
+How do we solve an NLP Problem?¢®Each NLP Problem is unique\xe0No universal method to solve them all\xe0Have a toolkit in mind of methods (symbolic, statistics and deep learning based)¢®NLP Engineering: Find what works best for your given method based on what has been done already in the literature, by colleagues¡¦¢®NLP Research: Find a better way to do (more accurate, cheaper, faster ¡¦)
+2024-12-12 15:13:27,588 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 15:13:29,432 - INFO - AI massage: Natural Language Processing (NLP) is the field that deals with the complexities of natural languages to perform various tasks. It involves converting raw text or speech into structured information or controlled text/speech. In this course, the focus will be primarily on textual data.
+2024-12-12 15:13:29,432 - INFO - chat_history: []
+2024-12-12 15:14:17,845 - INFO - User:  ok, What is tokenization?
+2024-12-12 15:14:19,866 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\JOSHUA\\miniconda3\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-12 15:14:19,868 - INFO - Looking for plugins in pinecone_plugins.inference
+2024-12-12 15:14:19,869 - INFO - Installing plugin inference into Pinecone
+2024-12-12 15:14:28,326 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-12 15:14:30,528 - INFO - Retrieved documents: Natural Language ProcessingSpring, 2024
+Tokenization¢®Definition: Tokenization consists in segmenting raw textual data into tokens:¢®Can be framed as a character level tasklInput: This is Natural Language Processing LecturelOutput: This / is / Natural / Language / Processing / Lecture¢®Easy task for most languages and domainslCan be very complex in some cases (e.g., Chinese, Social Media¡¦)
+
+Natural Language ProcessingSpring, 2024
+Token¢®With regard to our end task, a token can be:lA wordlA sub-word: e.g., a sequence of 3 characterslA characterlAn sequence of characters (sometimes a word, sometimes several words, sometimes a sub-word¡¦)
+
+Natural Language ProcessingSpring, 2024
+Text Segmentation¢®Definition: Text segmentation is the process of splitting raw text (i.e., list of characters) into units of interest.¢®Two level of segmentation (usually) required:lSplit raw text into modeling units (e.g., sentence, paragraph, 1000 characters, web-page, ¡¦)lSplit modeling units into sequence of basic units (referred to as tokens) (e.g., words, word-pieces, characters, ¡¦)¢®Two distinct approaches:lLinguistically informed, e.g., word, sentence segmentation ¡¦lStatistically informed, e.g., frequent sub-words (word pieces, sentence pieces ¡¦)
+
+Natural Language ProcessingSpring, 2024
+Notation¢®We assume:lA token is the basic unit of discrete data, defined to be an item from a vocabulary indexed by 1, ¡¦, V.lA document is a sequence of N words denoted by \U0001d451=\U0001d464",\U0001d464#,¡¦,\U0001d464$, where \U0001d464$is the theN-thword in the sequence.lA corpus is a collection of M documents denoted by \U0001d437=(\U0001d451",\U0001d451#,¡¦,\U0001d451%)
+2024-12-12 15:14:31,186 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 15:14:33,508 - INFO - AI massage: Tokenization is the process of segmenting raw textual data into tokens. It can be framed as a character level task, where the input text is divided into smaller units, such as words, sub-words, characters, or sequences of characters. Tokenization is generally an easy task for most languages and domains, but it can become complex in certain cases, such as with Chinese or social media text.
+2024-12-12 15:14:33,508 - INFO - chat_history: []
+2024-12-12 15:22:30,832 - INFO - A new session has been established (session id: c8f7110c-28db-4a73-83bc-3607d45a9833)
+2024-12-12 15:22:30,833 - INFO - Bolt app is running!
+2024-12-12 15:22:30,885 - INFO - Starting to receive messages from a new connection (session id: c8f7110c-28db-4a73-83bc-3607d45a9833)
+2024-12-12 15:23:12,441 - INFO - User:  what is NLP?
+2024-12-12 15:23:15,370 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\JOSHUA\\miniconda3\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-12 15:23:15,372 - INFO - Looking for plugins in pinecone_plugins.inference
+2024-12-12 15:23:15,435 - INFO - Installing plugin inference into Pinecone
+2024-12-12 15:23:20,441 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-12 15:23:22,735 - INFO - Retrieved documents: Natural Language ProcessingSpring, 2024
+What is Natural Language Processing?¢®In a nutshell, NLP consists in handling the complexities of natural languages ¡°to do something¡±lRaw text / speech \xe0Structured informationlRaw text / speech \xe0(Controlled) Text/Speech¢®In this course, we will focus on textual data
+
+Natural Language ProcessingSpring, 2024
+Brief History of NLP
+
+Natural Language ProcessingSpring, 2024
+Why Natural Language Processing?¢®What do we use language for?lWe communicateusing languagelWe think(partly) with languagelWe tell stories in languagelWe build Scientific Theories with languagelWe make friends/build relationshipswith language¢®Why NLP?lAccess Knowledge (search engine, recommender system, and so on)lCommunicate(e.g., Translation)lLinguistics and Cognitive Sciences (AnalyseLanguages themselves)
+
+Natural Language ProcessingSpring, 2024
+How do we solve an NLP Problem?¢®Each NLP Problem is unique\xe0No universal method to solve them all\xe0Have a toolkit in mind of methods (symbolic, statistics and deep learning based)¢®NLP Engineering: Find what works best for your given method based on what has been done already in the literature, by colleagues¡¦¢®NLP Research: Find a better way to do (more accurate, cheaper, faster ¡¦)
+2024-12-12 15:23:28,309 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 15:23:29,594 - INFO - AI massage: Natural Language Processing (NLP) is the field that deals with the complexities of natural languages to perform various tasks. It involves converting raw text or speech into structured information or controlled text/speech. In this course, the focus will be primarily on textual data.
+2024-12-12 15:23:29,594 - INFO - chat_history: []
+2024-12-12 15:23:47,459 - INFO - User:  what is tokenization?
+2024-12-12 15:23:50,372 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\JOSHUA\\miniconda3\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-12 15:23:50,373 - INFO - Looking for plugins in pinecone_plugins.inference
+2024-12-12 15:23:50,373 - INFO - Installing plugin inference into Pinecone
+2024-12-12 15:23:53,255 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-12 15:23:55,405 - INFO - Retrieved documents: Natural Language ProcessingSpring, 2024
+Tokenization¢®Definition: Tokenization consists in segmenting raw textual data into tokens:¢®Can be framed as a character level tasklInput: This is Natural Language Processing LecturelOutput: This / is / Natural / Language / Processing / Lecture¢®Easy task for most languages and domainslCan be very complex in some cases (e.g., Chinese, Social Media¡¦)
+
+Natural Language ProcessingSpring, 2024
+Token¢®With regard to our end task, a token can be:lA wordlA sub-word: e.g., a sequence of 3 characterslA characterlAn sequence of characters (sometimes a word, sometimes several words, sometimes a sub-word¡¦)
+
+Natural Language ProcessingSpring, 2024
+Text Segmentation¢®Definition: Text segmentation is the process of splitting raw text (i.e., list of characters) into units of interest.¢®Two level of segmentation (usually) required:lSplit raw text into modeling units (e.g., sentence, paragraph, 1000 characters, web-page, ¡¦)lSplit modeling units into sequence of basic units (referred to as tokens) (e.g., words, word-pieces, characters, ¡¦)¢®Two distinct approaches:lLinguistically informed, e.g., word, sentence segmentation ¡¦lStatistically informed, e.g., frequent sub-words (word pieces, sentence pieces ¡¦)
+
+Natural Language ProcessingSpring, 2024
+Notation¢®We assume:lA token is the basic unit of discrete data, defined to be an item from a vocabulary indexed by 1, ¡¦, V.lA document is a sequence of N words denoted by \U0001d451=\U0001d464",\U0001d464#,¡¦,\U0001d464$, where \U0001d464$is the theN-thword in the sequence.lA corpus is a collection of M documents denoted by \U0001d437=(\U0001d451",\U0001d451#,¡¦,\U0001d451%)
+2024-12-12 15:24:01,274 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 15:24:03,618 - INFO - AI massage: Tokenization is the process of segmenting raw textual data into tokens. It can be framed as a character-level task, where the input text is divided into smaller units, such as words, sub-words, characters, or sequences of characters. Tokenization is generally an easy task for most languages and domains, but it can become complex in certain cases, such as with Chinese or social media text.
+2024-12-12 15:24:03,618 - INFO - chat_history: []
+2024-12-12 15:29:50,400 - INFO - A new session has been established (session id: e7fc65fe-11b2-4d30-8647-1f54be357508)
+2024-12-12 15:29:50,401 - INFO - Bolt app is running!
+2024-12-12 15:29:50,407 - INFO - Starting to receive messages from a new connection (session id: e7fc65fe-11b2-4d30-8647-1f54be357508)
+2024-12-12 15:30:28,074 - INFO - User:  what is NLP?
+2024-12-12 15:30:31,034 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\JOSHUA\\miniconda3\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-12 15:30:31,037 - INFO - Looking for plugins in pinecone_plugins.inference
+2024-12-12 15:30:31,133 - INFO - Installing plugin inference into Pinecone
+2024-12-12 15:30:34,818 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-12 15:30:37,060 - INFO - Retrieved documents: Natural Language ProcessingSpring, 2024
+What is Natural Language Processing?¢®In a nutshell, NLP consists in handling the complexities of natural languages ¡°to do something¡±lRaw text / speech \xe0Structured informationlRaw text / speech \xe0(Controlled) Text/Speech¢®In this course, we will focus on textual data
+
+Natural Language ProcessingSpring, 2024
+Brief History of NLP
+
+Natural Language ProcessingSpring, 2024
+Why Natural Language Processing?¢®What do we use language for?lWe communicateusing languagelWe think(partly) with languagelWe tell stories in languagelWe build Scientific Theories with languagelWe make friends/build relationshipswith language¢®Why NLP?lAccess Knowledge (search engine, recommender system, and so on)lCommunicate(e.g., Translation)lLinguistics and Cognitive Sciences (AnalyseLanguages themselves)
+
+Natural Language ProcessingSpring, 2024
+How do we solve an NLP Problem?¢®Each NLP Problem is unique\xe0No universal method to solve them all\xe0Have a toolkit in mind of methods (symbolic, statistics and deep learning based)¢®NLP Engineering: Find what works best for your given method based on what has been done already in the literature, by colleagues¡¦¢®NLP Research: Find a better way to do (more accurate, cheaper, faster ¡¦)
+2024-12-12 15:30:45,006 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-12 15:30:45,247 - INFO - Retrieved documents: Natural Language ProcessingSpring, 2024
+What is Natural Language Processing?¢®In a nutshell, NLP consists in handling the complexities of natural languages ¡°to do something¡±lRaw text / speech \xe0Structured informationlRaw text / speech \xe0(Controlled) Text/Speech¢®In this course, we will focus on textual data
+
+Natural Language ProcessingSpring, 2024
+Brief History of NLP
+
+Natural Language ProcessingSpring, 2024
+Why Natural Language Processing?¢®What do we use language for?lWe communicateusing languagelWe think(partly) with languagelWe tell stories in languagelWe build Scientific Theories with languagelWe make friends/build relationshipswith language¢®Why NLP?lAccess Knowledge (search engine, recommender system, and so on)lCommunicate(e.g., Translation)lLinguistics and Cognitive Sciences (AnalyseLanguages themselves)
+
+Natural Language ProcessingSpring, 2024
+How do we solve an NLP Problem?¢®Each NLP Problem is unique\xe0No universal method to solve them all\xe0Have a toolkit in mind of methods (symbolic, statistics and deep learning based)¢®NLP Engineering: Find what works best for your given method based on what has been done already in the literature, by colleagues¡¦¢®NLP Research: Find a better way to do (more accurate, cheaper, faster ¡¦)
+2024-12-12 15:30:45,867 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 15:30:47,149 - INFO - AI massage: Natural Language Processing (NLP) is the field that involves handling the complexities of natural languages to achieve specific goals. It encompasses the transformation of raw text or speech into structured information or controlled text/speech. In this course, the focus will be primarily on textual data.
+2024-12-12 15:30:47,149 - INFO - chat_history: []
+2024-12-12 15:30:47,149 - INFO - Updated history: [{'role': 'user', 'content': ' what is NLP?'}, {'role': 'ai', 'content': 'Natural Language Processing (NLP) is the field that involves handling the complexities of natural languages to achieve specific goals. It encompasses the transformation of raw text or speech into structured information or controlled text/speech. In this course, the focus will be primarily on textual data.'}]
+2024-12-12 15:31:29,516 - INFO - User:  tokenization?
+2024-12-12 15:31:31,433 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\JOSHUA\\miniconda3\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-12 15:31:31,434 - INFO - Looking for plugins in pinecone_plugins.inference
+2024-12-12 15:31:31,435 - INFO - Installing plugin inference into Pinecone
+2024-12-12 15:31:33,673 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-12 15:31:35,613 - INFO - Retrieved documents: Natural Language ProcessingSpring, 2024
+Tokenization¢®Definition: Tokenization consists in segmenting raw textual data into tokens:¢®Can be framed as a character level tasklInput: This is Natural Language Processing LecturelOutput: This / is / Natural / Language / Processing / Lecture¢®Easy task for most languages and domainslCan be very complex in some cases (e.g., Chinese, Social Media¡¦)
+
+Natural Language ProcessingSpring, 2024
+Token¢®With regard to our end task, a token can be:lA wordlA sub-word: e.g., a sequence of 3 characterslA characterlAn sequence of characters (sometimes a word, sometimes several words, sometimes a sub-word¡¦)
+
+Natural Language ProcessingSpring, 2024
+Notation¢®We assume:lA token is the basic unit of discrete data, defined to be an item from a vocabulary indexed by 1, ¡¦, V.lA document is a sequence of N words denoted by \U0001d451=\U0001d464",\U0001d464#,¡¦,\U0001d464$, where \U0001d464$is the theN-thword in the sequence.lA corpus is a collection of M documents denoted by \U0001d437=(\U0001d451",\U0001d451#,¡¦,\U0001d451%)
+
+Natural Language ProcessingSpring, 2024
+Text Segmentation¢®Definition: Text segmentation is the process of splitting raw text (i.e., list of characters) into units of interest.¢®Two level of segmentation (usually) required:lSplit raw text into modeling units (e.g., sentence, paragraph, 1000 characters, web-page, ¡¦)lSplit modeling units into sequence of basic units (referred to as tokens) (e.g., words, word-pieces, characters, ¡¦)¢®Two distinct approaches:lLinguistically informed, e.g., word, sentence segmentation ¡¦lStatistically informed, e.g., frequent sub-words (word pieces, sentence pieces ¡¦)
+2024-12-12 15:31:42,698 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-12 15:31:42,919 - INFO - Retrieved documents: Natural Language ProcessingSpring, 2024
+Tokenization¢®Definition: Tokenization consists in segmenting raw textual data into tokens:¢®Can be framed as a character level tasklInput: This is Natural Language Processing LecturelOutput: This / is / Natural / Language / Processing / Lecture¢®Easy task for most languages and domainslCan be very complex in some cases (e.g., Chinese, Social Media¡¦)
+
+Natural Language ProcessingSpring, 2024
+Token¢®With regard to our end task, a token can be:lA wordlA sub-word: e.g., a sequence of 3 characterslA characterlAn sequence of characters (sometimes a word, sometimes several words, sometimes a sub-word¡¦)
+
+Natural Language ProcessingSpring, 2024
+Notation¢®We assume:lA token is the basic unit of discrete data, defined to be an item from a vocabulary indexed by 1, ¡¦, V.lA document is a sequence of N words denoted by \U0001d451=\U0001d464",\U0001d464#,¡¦,\U0001d464$, where \U0001d464$is the theN-thword in the sequence.lA corpus is a collection of M documents denoted by \U0001d437=(\U0001d451",\U0001d451#,¡¦,\U0001d451%)
+
+Natural Language ProcessingSpring, 2024
+Text Segmentation¢®Definition: Text segmentation is the process of splitting raw text (i.e., list of characters) into units of interest.¢®Two level of segmentation (usually) required:lSplit raw text into modeling units (e.g., sentence, paragraph, 1000 characters, web-page, ¡¦)lSplit modeling units into sequence of basic units (referred to as tokens) (e.g., words, word-pieces, characters, ¡¦)¢®Two distinct approaches:lLinguistically informed, e.g., word, sentence segmentation ¡¦lStatistically informed, e.g., frequent sub-words (word pieces, sentence pieces ¡¦)
+2024-12-12 15:31:43,534 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 15:31:45,955 - INFO - AI massage: Tokenization is the process of segmenting raw textual data into tokens, which can be defined as words, sub-words, characters, or sequences of characters. It can be approached as a character-level task, where the input text is divided into discrete units that are indexed from a vocabulary. Tokenization is generally considered an easy task for most languages and domains, but it can become complex in certain cases, such as with Chinese or social media text.
+2024-12-12 15:31:45,955 - INFO - chat_history: []
+2024-12-12 15:31:45,955 - INFO - Updated history: [{'role': 'user', 'content': ' tokenization?'}, {'role': 'ai', 'content': 'Tokenization is the process of segmenting raw textual data into tokens, which can be defined as words, sub-words, characters, or sequences of characters. It can be approached as a character-level task, where the input text is divided into discrete units that are indexed from a vocabulary. Tokenization is generally considered an easy task for most languages and domains, but it can become complex in certain cases, such as with Chinese or social media text.'}]
+2024-12-12 15:36:01,942 - INFO - A new session has been established (session id: fe3b19d1-d0e6-4cc7-9c4a-99e46e8a7911)
+2024-12-12 15:36:01,942 - INFO - Bolt app is running!
+2024-12-12 15:36:02,038 - INFO - Starting to receive messages from a new connection (session id: fe3b19d1-d0e6-4cc7-9c4a-99e46e8a7911)
+2024-12-12 15:36:26,989 - INFO - User:  what is NLP?
+2024-12-12 15:36:30,023 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\JOSHUA\\miniconda3\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-12 15:36:30,024 - INFO - Looking for plugins in pinecone_plugins.inference
+2024-12-12 15:36:30,099 - INFO - Installing plugin inference into Pinecone
+2024-12-12 15:36:33,910 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-12 15:36:36,171 - INFO - Retrieved documents: Natural Language ProcessingSpring, 2024
+What is Natural Language Processing?¢®In a nutshell, NLP consists in handling the complexities of natural languages ¡°to do something¡±lRaw text / speech \xe0Structured informationlRaw text / speech \xe0(Controlled) Text/Speech¢®In this course, we will focus on textual data
+
+Natural Language ProcessingSpring, 2024
+Brief History of NLP
+
+Natural Language ProcessingSpring, 2024
+Why Natural Language Processing?¢®What do we use language for?lWe communicateusing languagelWe think(partly) with languagelWe tell stories in languagelWe build Scientific Theories with languagelWe make friends/build relationshipswith language¢®Why NLP?lAccess Knowledge (search engine, recommender system, and so on)lCommunicate(e.g., Translation)lLinguistics and Cognitive Sciences (AnalyseLanguages themselves)
+
+Natural Language ProcessingSpring, 2024
+How do we solve an NLP Problem?¢®Each NLP Problem is unique\xe0No universal method to solve them all\xe0Have a toolkit in mind of methods (symbolic, statistics and deep learning based)¢®NLP Engineering: Find what works best for your given method based on what has been done already in the literature, by colleagues¡¦¢®NLP Research: Find a better way to do (more accurate, cheaper, faster ¡¦)
+2024-12-12 15:36:43,416 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-12 15:36:43,650 - INFO - Retrieved documents: Natural Language ProcessingSpring, 2024
+What is Natural Language Processing?¢®In a nutshell, NLP consists in handling the complexities of natural languages ¡°to do something¡±lRaw text / speech \xe0Structured informationlRaw text / speech \xe0(Controlled) Text/Speech¢®In this course, we will focus on textual data
+
+Natural Language ProcessingSpring, 2024
+Brief History of NLP
+
+Natural Language ProcessingSpring, 2024
+Why Natural Language Processing?¢®What do we use language for?lWe communicateusing languagelWe think(partly) with languagelWe tell stories in languagelWe build Scientific Theories with languagelWe make friends/build relationshipswith language¢®Why NLP?lAccess Knowledge (search engine, recommender system, and so on)lCommunicate(e.g., Translation)lLinguistics and Cognitive Sciences (AnalyseLanguages themselves)
+
+Natural Language ProcessingSpring, 2024
+How do we solve an NLP Problem?¢®Each NLP Problem is unique\xe0No universal method to solve them all\xe0Have a toolkit in mind of methods (symbolic, statistics and deep learning based)¢®NLP Engineering: Find what works best for your given method based on what has been done already in the literature, by colleagues¡¦¢®NLP Research: Find a better way to do (more accurate, cheaper, faster ¡¦)
+2024-12-12 15:36:44,204 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 15:36:45,470 - INFO - AI massage: Natural Language Processing (NLP) is the field that deals with the complexities of natural languages to perform various tasks. It involves converting raw text or speech into structured information or controlled text/speech. In this course, the focus will be primarily on textual data.
+2024-12-12 15:36:45,471 - INFO - chat_history: []
+2024-12-12 15:36:45,471 - INFO - Updated history for thread 1733985386.165219: [{'role': 'user', 'content': ' what is NLP?'}, {'role': 'ai', 'content': 'Natural Language Processing (NLP) is the field that deals with the complexities of natural languages to perform various tasks. It involves converting raw text or speech into structured information or controlled text/speech. In this course, the focus will be primarily on textual data.'}]
+2024-12-12 15:37:09,354 - INFO - User:  what is tokenization
+2024-12-12 15:37:11,776 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\JOSHUA\\miniconda3\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-12 15:37:11,778 - INFO - Looking for plugins in pinecone_plugins.inference
+2024-12-12 15:37:11,778 - INFO - Installing plugin inference into Pinecone
+2024-12-12 15:37:14,512 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-12 15:37:16,581 - INFO - Retrieved documents: Natural Language ProcessingSpring, 2024
+Tokenization¢®Definition: Tokenization consists in segmenting raw textual data into tokens:¢®Can be framed as a character level tasklInput: This is Natural Language Processing LecturelOutput: This / is / Natural / Language / Processing / Lecture¢®Easy task for most languages and domainslCan be very complex in some cases (e.g., Chinese, Social Media¡¦)
+
+Natural Language ProcessingSpring, 2024
+Token¢®With regard to our end task, a token can be:lA wordlA sub-word: e.g., a sequence of 3 characterslA characterlAn sequence of characters (sometimes a word, sometimes several words, sometimes a sub-word¡¦)
+
+Natural Language ProcessingSpring, 2024
+Text Segmentation¢®Definition: Text segmentation is the process of splitting raw text (i.e., list of characters) into units of interest.¢®Two level of segmentation (usually) required:lSplit raw text into modeling units (e.g., sentence, paragraph, 1000 characters, web-page, ¡¦)lSplit modeling units into sequence of basic units (referred to as tokens) (e.g., words, word-pieces, characters, ¡¦)¢®Two distinct approaches:lLinguistically informed, e.g., word, sentence segmentation ¡¦lStatistically informed, e.g., frequent sub-words (word pieces, sentence pieces ¡¦)
+
+Natural Language ProcessingSpring, 2024
+Notation¢®We assume:lA token is the basic unit of discrete data, defined to be an item from a vocabulary indexed by 1, ¡¦, V.lA document is a sequence of N words denoted by \U0001d451=\U0001d464",\U0001d464#,¡¦,\U0001d464$, where \U0001d464$is the theN-thword in the sequence.lA corpus is a collection of M documents denoted by \U0001d437=(\U0001d451",\U0001d451#,¡¦,\U0001d451%)
+2024-12-12 15:37:22,166 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-12 15:37:22,416 - INFO - Retrieved documents: Natural Language ProcessingSpring, 2024
+Tokenization¢®Definition: Tokenization consists in segmenting raw textual data into tokens:¢®Can be framed as a character level tasklInput: This is Natural Language Processing LecturelOutput: This / is / Natural / Language / Processing / Lecture¢®Easy task for most languages and domainslCan be very complex in some cases (e.g., Chinese, Social Media¡¦)
+
+Natural Language ProcessingSpring, 2024
+Token¢®With regard to our end task, a token can be:lA wordlA sub-word: e.g., a sequence of 3 characterslA characterlAn sequence of characters (sometimes a word, sometimes several words, sometimes a sub-word¡¦)
+
+Natural Language ProcessingSpring, 2024
+Text Segmentation¢®Definition: Text segmentation is the process of splitting raw text (i.e., list of characters) into units of interest.¢®Two level of segmentation (usually) required:lSplit raw text into modeling units (e.g., sentence, paragraph, 1000 characters, web-page, ¡¦)lSplit modeling units into sequence of basic units (referred to as tokens) (e.g., words, word-pieces, characters, ¡¦)¢®Two distinct approaches:lLinguistically informed, e.g., word, sentence segmentation ¡¦lStatistically informed, e.g., frequent sub-words (word pieces, sentence pieces ¡¦)
+
+Natural Language ProcessingSpring, 2024
+Notation¢®We assume:lA token is the basic unit of discrete data, defined to be an item from a vocabulary indexed by 1, ¡¦, V.lA document is a sequence of N words denoted by \U0001d451=\U0001d464",\U0001d464#,¡¦,\U0001d464$, where \U0001d464$is the theN-thword in the sequence.lA corpus is a collection of M documents denoted by \U0001d437=(\U0001d451",\U0001d451#,¡¦,\U0001d451%)
+2024-12-12 15:37:22,989 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 15:37:25,276 - INFO - AI massage: Tokenization is the process of segmenting raw textual data into tokens. Tokens can be defined as words, sub-words (e.g., sequences of characters), characters, or sequences of characters that may represent a word, several words, or a sub-word. It can be framed as a character-level task and is generally considered an easy task for most languages and domains, although it can become complex in certain cases, such as with Chinese or social media text.
+2024-12-12 15:37:25,276 - INFO - chat_history: []
+2024-12-12 15:37:25,276 - INFO - Updated history for thread 1733985428.601729: [{'role': 'user', 'content': ' what is tokenization'}, {'role': 'ai', 'content': 'Tokenization is the process of segmenting raw textual data into tokens. Tokens can be defined as words, sub-words (e.g., sequences of characters), characters, or sequences of characters that may represent a word, several words, or a sub-word. It can be framed as a character-level task and is generally considered an easy task for most languages and domains, although it can become complex in certain cases, such as with Chinese or social media text.'}]
+2024-12-12 15:41:56,452 - INFO - A new session has been established (session id: 9dd530e5-c098-4b02-8116-a913015cd82d)
+2024-12-12 15:41:56,453 - INFO - Bolt app is running!
+2024-12-12 15:41:56,533 - INFO - Starting to receive messages from a new connection (session id: 9dd530e5-c098-4b02-8116-a913015cd82d)
+2024-12-12 15:42:27,991 - INFO - User:  NLP°¡ ¹¹¾ß?
+2024-12-12 15:42:31,163 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\JOSHUA\\miniconda3\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-12 15:42:31,164 - INFO - Looking for plugins in pinecone_plugins.inference
+2024-12-12 15:42:31,222 - INFO - Installing plugin inference into Pinecone
+2024-12-12 15:42:34,804 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-12 15:42:37,422 - INFO - Retrieved documents: Natural Language ProcessingIntroduction to NLP
+Junyeong KimDept. of AI, Chung-AngUniversity
+
+Natural Language ProcessingSpring, 2024
+Machine Translation¢®INPUT:    My name is Bob and I live in NY!¢®OUTPUT: ³» ÀÌ¸§Àº ¹äÀÌ°í³ª´Â ´º¿å¿¡ »ì¾Æ!
+
+Natural Language ProcessingSpring, 2024
+What is Natural Language Processing?¢®In a nutshell, NLP consists in handling the complexities of natural languages ¡°to do something¡±lRaw text / speech \xe0Structured informationlRaw text / speech \xe0(Controlled) Text/Speech¢®In this course, we will focus on textual data
+
+Natural Language ProcessingSpring, 2024
+Why Natural Language Processing?¢®What do we use language for?lWe communicateusing languagelWe think(partly) with languagelWe tell stories in languagelWe build Scientific Theories with languagelWe make friends/build relationshipswith language¢®Why NLP?lAccess Knowledge (search engine, recommender system, and so on)lCommunicate(e.g., Translation)lLinguistics and Cognitive Sciences (AnalyseLanguages themselves)
+2024-12-12 15:42:42,768 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-12 15:42:43,021 - INFO - Retrieved documents: Natural Language ProcessingIntroduction to NLP
+Junyeong KimDept. of AI, Chung-AngUniversity
+
+Natural Language ProcessingSpring, 2024
+Machine Translation¢®INPUT:    My name is Bob and I live in NY!¢®OUTPUT: ³» ÀÌ¸§Àº ¹äÀÌ°í³ª´Â ´º¿å¿¡ »ì¾Æ!
+
+Natural Language ProcessingSpring, 2024
+What is Natural Language Processing?¢®In a nutshell, NLP consists in handling the complexities of natural languages ¡°to do something¡±lRaw text / speech \xe0Structured informationlRaw text / speech \xe0(Controlled) Text/Speech¢®In this course, we will focus on textual data
+
+Natural Language ProcessingSpring, 2024
+Why Natural Language Processing?¢®What do we use language for?lWe communicateusing languagelWe think(partly) with languagelWe tell stories in languagelWe build Scientific Theories with languagelWe make friends/build relationshipswith language¢®Why NLP?lAccess Knowledge (search engine, recommender system, and so on)lCommunicate(e.g., Translation)lLinguistics and Cognitive Sciences (AnalyseLanguages themselves)
+2024-12-12 15:42:43,700 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 15:42:46,069 - INFO - AI massage: NLP(ÀÚ¿¬¾î Ã³¸®)´Â ÀÚ¿¬¾îÀÇ º¹Àâ¼ºÀ» ´Ù·ç¾î "¹«¾ğ°¡¸¦ ÇÏ±â À§ÇØ" »ç¿ëÇÏ´Â ±â¼úÀÔ´Ï´Ù. ÀÌ´Â ¿ø½Ã ÅØ½ºÆ®³ª À½¼ºÀ» ±¸Á¶È­µÈ Á¤º¸·Î º¯È¯ÇÏ°Å³ª, Á¦¾îµÈ ÅØ½ºÆ®/À½¼ºÀ¸·Î º¯È¯ÇÏ´Â °úÁ¤À» Æ÷ÇÔÇÕ´Ï´Ù. ÀÌ °úÁ¤¿¡¼­´Â ÁÖ·Î ÅØ½ºÆ® µ¥ÀÌÅÍ¸¦ Áß½ÉÀ¸·Î ´Ù·ç°Ô µË´Ï´Ù. NLP´Â ¾ğ¾î¸¦ ÅëÇØ ÀÇ»ç¼ÒÅëÇÏ°í, »ç°íÇÏ¸ç, ÀÌ¾ß±â¸¦ Àü´ŞÇÏ°í, °úÇĞ ÀÌ·ĞÀ» ±¸ÃàÇÏ°í, °ü°è¸¦ Çü¼ºÇÏ´Â µ¥ »ç¿ëµË´Ï´Ù.
+2024-12-12 15:42:46,088 - INFO - chat_history: []
+2024-12-12 15:42:46,089 - INFO - Updated history for thread 1733985746.767969: [{'role': 'user', 'content': ' NLP°¡ ¹¹¾ß?'}, {'role': 'ai', 'content': 'NLP(ÀÚ¿¬¾î Ã³¸®)´Â ÀÚ¿¬¾îÀÇ º¹Àâ¼ºÀ» ´Ù·ç¾î "¹«¾ğ°¡¸¦ ÇÏ±â À§ÇØ" »ç¿ëÇÏ´Â ±â¼úÀÔ´Ï´Ù. ÀÌ´Â ¿ø½Ã ÅØ½ºÆ®³ª À½¼ºÀ» ±¸Á¶È­µÈ Á¤º¸·Î º¯È¯ÇÏ°Å³ª, Á¦¾îµÈ ÅØ½ºÆ®/À½¼ºÀ¸·Î º¯È¯ÇÏ´Â °úÁ¤À» Æ÷ÇÔÇÕ´Ï´Ù. ÀÌ °úÁ¤¿¡¼­´Â ÁÖ·Î ÅØ½ºÆ® µ¥ÀÌÅÍ¸¦ Áß½ÉÀ¸·Î ´Ù·ç°Ô µË´Ï´Ù. NLP´Â ¾ğ¾î¸¦ ÅëÇØ ÀÇ»ç¼ÒÅëÇÏ°í, »ç°íÇÏ¸ç, ÀÌ¾ß±â¸¦ Àü´ŞÇÏ°í, °úÇĞ ÀÌ·ĞÀ» ±¸ÃàÇÏ°í, °ü°è¸¦ Çü¼ºÇÏ´Â µ¥ »ç¿ëµË´Ï´Ù.'}]
+2024-12-12 15:43:23,130 - INFO - User:  tokenizationÀº?
+2024-12-12 15:43:25,840 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\JOSHUA\\miniconda3\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-12 15:43:25,842 - INFO - Looking for plugins in pinecone_plugins.inference
+2024-12-12 15:43:25,842 - INFO - Installing plugin inference into Pinecone
+2024-12-12 15:43:29,461 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-12 15:43:34,466 - INFO - Retrieved documents: Natural Language ProcessingSpring, 2024
+Tokenization¢®Definition: Tokenization consists in segmenting raw textual data into tokens:¢®Can be framed as a character level tasklInput: This is Natural Language Processing LecturelOutput: This / is / Natural / Language / Processing / Lecture¢®Easy task for most languages and domainslCan be very complex in some cases (e.g., Chinese, Social Media¡¦)
+
+Natural Language ProcessingSpring, 2024
+Token¢®With regard to our end task, a token can be:lA wordlA sub-word: e.g., a sequence of 3 characterslA characterlAn sequence of characters (sometimes a word, sometimes several words, sometimes a sub-word¡¦)
+
+Natural Language ProcessingSpring, 2024
+Notation¢®We assume:lA token is the basic unit of discrete data, defined to be an item from a vocabulary indexed by 1, ¡¦, V.lA document is a sequence of N words denoted by \U0001d451=\U0001d464",\U0001d464#,¡¦,\U0001d464$, where \U0001d464$is the theN-thword in the sequence.lA corpus is a collection of M documents denoted by \U0001d437=(\U0001d451",\U0001d451#,¡¦,\U0001d451%)
+
+Natural Language ProcessingSpring, 2024
+Machine Translation¢®INPUT:    My name is Bob and I live in NY!¢®OUTPUT: ³» ÀÌ¸§Àº ¹äÀÌ°í³ª´Â ´º¿å¿¡ »ì¾Æ!
+2024-12-12 15:43:45,532 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-12 15:43:45,756 - INFO - Retrieved documents: Natural Language ProcessingSpring, 2024
+Tokenization¢®Definition: Tokenization consists in segmenting raw textual data into tokens:¢®Can be framed as a character level tasklInput: This is Natural Language Processing LecturelOutput: This / is / Natural / Language / Processing / Lecture¢®Easy task for most languages and domainslCan be very complex in some cases (e.g., Chinese, Social Media¡¦)
+
+Natural Language ProcessingSpring, 2024
+Token¢®With regard to our end task, a token can be:lA wordlA sub-word: e.g., a sequence of 3 characterslA characterlAn sequence of characters (sometimes a word, sometimes several words, sometimes a sub-word¡¦)
+
+Natural Language ProcessingSpring, 2024
+Notation¢®We assume:lA token is the basic unit of discrete data, defined to be an item from a vocabulary indexed by 1, ¡¦, V.lA document is a sequence of N words denoted by \U0001d451=\U0001d464",\U0001d464#,¡¦,\U0001d464$, where \U0001d464$is the theN-thword in the sequence.lA corpus is a collection of M documents denoted by \U0001d437=(\U0001d451",\U0001d451#,¡¦,\U0001d451%)
+
+Natural Language ProcessingSpring, 2024
+Machine Translation¢®INPUT:    My name is Bob and I live in NY!¢®OUTPUT: ³» ÀÌ¸§Àº ¹äÀÌ°í³ª´Â ´º¿å¿¡ »ì¾Æ!
+2024-12-12 15:43:46,292 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 15:43:47,648 - INFO - AI massage: TokenizationÀº ¿ø½Ã ÅØ½ºÆ® µ¥ÀÌÅÍ¸¦ ÅäÅ«À¸·Î ºĞÇÒÇÏ´Â °úÁ¤ÀÔ´Ï´Ù. ÀÌ´Â ¹®ÀÚ ¼öÁØÀÇ ÀÛ¾÷À¸·Î ÇÁ·¹ÀÓÇÒ ¼ö ÀÖÀ¸¸ç, ¿¹¸¦ µé¾î "This is Natural Language Processing Lecture"¶ó´Â ÀÔ·ÂÀÌ ÁÖ¾îÁö¸é, Ãâ·ÂÀº "This / is / Natural / Language / Processing / Lecture"¿Í °°ÀÌ °¢ ´Ü¾î°¡ ÅäÅ«À¸·Î ³ª´µ°Ô µË´Ï´Ù. ´ëºÎºĞÀÇ ¾ğ¾î¿Í µµ¸ŞÀÎ¿¡¼­´Â ºñ±³Àû ½¬¿î ÀÛ¾÷ÀÌÁö¸¸, Áß±¹¾î¿Í ¼Ò¼È ¹Ìµğ¾î¿Í °°Àº °æ¿ì¿¡´Â ¸Å¿ì º¹ÀâÇÒ ¼ö ÀÖ½À´Ï´Ù.
+2024-12-12 15:43:47,648 - INFO - chat_history: []
+2024-12-12 15:43:47,648 - INFO - Updated history for thread 1733985801.758689: [{'role': 'user', 'content': ' tokenizationÀº?'}, {'role': 'ai', 'content': 'TokenizationÀº ¿ø½Ã ÅØ½ºÆ® µ¥ÀÌÅÍ¸¦ ÅäÅ«À¸·Î ºĞÇÒÇÏ´Â °úÁ¤ÀÔ´Ï´Ù. ÀÌ´Â ¹®ÀÚ ¼öÁØÀÇ ÀÛ¾÷À¸·Î ÇÁ·¹ÀÓÇÒ ¼ö ÀÖÀ¸¸ç, ¿¹¸¦ µé¾î "This is Natural Language Processing Lecture"¶ó´Â ÀÔ·ÂÀÌ ÁÖ¾îÁö¸é, Ãâ·ÂÀº "This / is / Natural / Language / Processing / Lecture"¿Í °°ÀÌ °¢ ´Ü¾î°¡ ÅäÅ«À¸·Î ³ª´µ°Ô µË´Ï´Ù. ´ëºÎºĞÀÇ ¾ğ¾î¿Í µµ¸ŞÀÎ¿¡¼­´Â ºñ±³Àû ½¬¿î ÀÛ¾÷ÀÌÁö¸¸, Áß±¹¾î¿Í ¼Ò¼È ¹Ìµğ¾î¿Í °°Àº °æ¿ì¿¡´Â ¸Å¿ì º¹ÀâÇÒ ¼ö ÀÖ½À´Ï´Ù.'}]
+2024-12-12 15:54:11,780 - INFO - A new session has been established (session id: 9bf33e69-9000-4aac-a108-7f719d455943)
+2024-12-12 15:54:11,780 - INFO - Bolt app is running!
+2024-12-12 15:54:11,819 - INFO - Starting to receive messages from a new connection (session id: 9bf33e69-9000-4aac-a108-7f719d455943)
+2024-12-12 15:54:44,621 - INFO - A new session has been established (session id: 8429244e-fba9-42c5-b320-679c8592ad5b)
+2024-12-12 15:54:44,621 - INFO - Bolt app is running!
+2024-12-12 15:54:44,637 - INFO - Starting to receive messages from a new connection (session id: 8429244e-fba9-42c5-b320-679c8592ad5b)
+2024-12-12 15:55:08,432 - INFO - User U084Y1C0X4H:  NLP¸¦ ¾Ë·ÁÁà
+2024-12-12 15:55:11,885 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\JOSHUA\\miniconda3\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-12 15:55:11,886 - INFO - Looking for plugins in pinecone_plugins.inference
+2024-12-12 15:55:11,948 - INFO - Installing plugin inference into Pinecone
+2024-12-12 15:55:15,848 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-12 15:55:17,927 - INFO - Retrieved documents: Natural Language ProcessingIntroduction to NLP
+Junyeong KimDept. of AI, Chung-AngUniversity
+
+Natural Language ProcessingSpring, 2024
+Machine Translation¢®INPUT:    My name is Bob and I live in NY!¢®OUTPUT: ³» ÀÌ¸§Àº ¹äÀÌ°í³ª´Â ´º¿å¿¡ »ì¾Æ!
+
+Natural Language ProcessingSpring, 2024
+Brief History of NLP
+
+Natural Language ProcessingSpring, 2024
+What is Natural Language Processing?¢®In a nutshell, NLP consists in handling the complexities of natural languages ¡°to do something¡±lRaw text / speech \xe0Structured informationlRaw text / speech \xe0(Controlled) Text/Speech¢®In this course, we will focus on textual data
+2024-12-12 15:55:23,569 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-12 15:55:23,802 - INFO - Retrieved documents: Natural Language ProcessingIntroduction to NLP
+Junyeong KimDept. of AI, Chung-AngUniversity
+
+Natural Language ProcessingSpring, 2024
+Machine Translation¢®INPUT:    My name is Bob and I live in NY!¢®OUTPUT: ³» ÀÌ¸§Àº ¹äÀÌ°í³ª´Â ´º¿å¿¡ »ì¾Æ!
+
+Natural Language ProcessingSpring, 2024
+Brief History of NLP
+
+Natural Language ProcessingSpring, 2024
+What is Natural Language Processing?¢®In a nutshell, NLP consists in handling the complexities of natural languages ¡°to do something¡±lRaw text / speech \xe0Structured informationlRaw text / speech \xe0(Controlled) Text/Speech¢®In this course, we will focus on textual data
+2024-12-12 15:55:26,490 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 15:55:28,253 - INFO - AI massage: ÀÚ¿¬¾î Ã³¸®(Natural Language Processing, NLP)´Â ÀÚ¿¬¾îÀÇ º¹Àâ¼ºÀ» ´Ù·ç¾î Á¤º¸¸¦ Ã³¸®ÇÏ°Å³ª »ı¼ºÇÏ´Â ±â¼úÀÔ´Ï´Ù. NLP´Â ÁÖ·Î ¿ø½Ã ÅØ½ºÆ®³ª À½¼ºÀ» ±¸Á¶È­µÈ Á¤º¸·Î º¯È¯ÇÏ°Å³ª, Á¦¾îµÈ ÅØ½ºÆ®/À½¼ºÀ¸·Î º¯È¯ÇÏ´Â ÀÛ¾÷À» Æ÷ÇÔÇÕ´Ï´Ù. ÀÌ °úÁ¤¿¡¼­´Â ÁÖ·Î ÅØ½ºÆ® µ¥ÀÌÅÍ¸¦ Áß½ÉÀ¸·Î ´Ù·ç°Ô µË´Ï´Ù.
+2024-12-12 15:55:28,254 - INFO - chat_history: []
+2024-12-12 15:55:28,254 - INFO - Updated history for thread U084Y1C0X4H: [{'role': 'user', 'content': ' NLP¸¦ ¾Ë·ÁÁà'}, {'role': 'ai', 'content': 'ÀÚ¿¬¾î Ã³¸®(Natural Language Processing, NLP)´Â ÀÚ¿¬¾îÀÇ º¹Àâ¼ºÀ» ´Ù·ç¾î Á¤º¸¸¦ Ã³¸®ÇÏ°Å³ª »ı¼ºÇÏ´Â ±â¼úÀÔ´Ï´Ù. NLP´Â ÁÖ·Î ¿ø½Ã ÅØ½ºÆ®³ª À½¼ºÀ» ±¸Á¶È­µÈ Á¤º¸·Î º¯È¯ÇÏ°Å³ª, Á¦¾îµÈ ÅØ½ºÆ®/À½¼ºÀ¸·Î º¯È¯ÇÏ´Â ÀÛ¾÷À» Æ÷ÇÔÇÕ´Ï´Ù. ÀÌ °úÁ¤¿¡¼­´Â ÁÖ·Î ÅØ½ºÆ® µ¥ÀÌÅÍ¸¦ Áß½ÉÀ¸·Î ´Ù·ç°Ô µË´Ï´Ù.'}]
+2024-12-12 15:56:03,927 - INFO - User U084Y1C0X4H:  tokenizationÀº?
+2024-12-12 15:56:05,895 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\JOSHUA\\miniconda3\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-12 15:56:05,896 - INFO - Looking for plugins in pinecone_plugins.inference
+2024-12-12 15:56:05,896 - INFO - Installing plugin inference into Pinecone
+2024-12-12 15:56:08,154 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-12 15:56:10,517 - INFO - Retrieved documents: Natural Language ProcessingSpring, 2024
+Tokenization¢®Definition: Tokenization consists in segmenting raw textual data into tokens:¢®Can be framed as a character level tasklInput: This is Natural Language Processing LecturelOutput: This / is / Natural / Language / Processing / Lecture¢®Easy task for most languages and domainslCan be very complex in some cases (e.g., Chinese, Social Media¡¦)
+
+Natural Language ProcessingSpring, 2024
+Token¢®With regard to our end task, a token can be:lA wordlA sub-word: e.g., a sequence of 3 characterslA characterlAn sequence of characters (sometimes a word, sometimes several words, sometimes a sub-word¡¦)
+
+Natural Language ProcessingSpring, 2024
+Notation¢®We assume:lA token is the basic unit of discrete data, defined to be an item from a vocabulary indexed by 1, ¡¦, V.lA document is a sequence of N words denoted by \U0001d451=\U0001d464",\U0001d464#,¡¦,\U0001d464$, where \U0001d464$is the theN-thword in the sequence.lA corpus is a collection of M documents denoted by \U0001d437=(\U0001d451",\U0001d451#,¡¦,\U0001d451%)
+
+Natural Language ProcessingSpring, 2024
+Machine Translation¢®INPUT:    My name is Bob and I live in NY!¢®OUTPUT: ³» ÀÌ¸§Àº ¹äÀÌ°í³ª´Â ´º¿å¿¡ »ì¾Æ!
+2024-12-12 15:56:18,132 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 15:56:20,861 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-12 15:56:21,087 - INFO - Retrieved documents: Natural Language ProcessingIntroduction to NLP
+Junyeong KimDept. of AI, Chung-AngUniversity
+
+Natural Language ProcessingSpring, 2024
+What is Natural Language Processing?¢®In a nutshell, NLP consists in handling the complexities of natural languages ¡°to do something¡±lRaw text / speech \xe0Structured informationlRaw text / speech \xe0(Controlled) Text/Speech¢®In this course, we will focus on textual data
+
+Natural Language ProcessingSpring, 2024
+Machine Translation¢®INPUT:    My name is Bob and I live in NY!¢®OUTPUT: ³» ÀÌ¸§Àº ¹äÀÌ°í³ª´Â ´º¿å¿¡ »ì¾Æ!
+
+Natural Language ProcessingSpring, 2024
+Tokenization¢®Definition: Tokenization consists in segmenting raw textual data into tokens:¢®Can be framed as a character level tasklInput: This is Natural Language Processing LecturelOutput: This / is / Natural / Language / Processing / Lecture¢®Easy task for most languages and domainslCan be very complex in some cases (e.g., Chinese, Social Media¡¦)
+2024-12-12 15:56:21,805 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 15:56:25,124 - INFO - AI massage: ÅäÅ«È­(Tokenization)´Â ¿ø½Ã ÅØ½ºÆ® µ¥ÀÌÅÍ¸¦ ÅäÅ«À¸·Î ºĞÇÒÇÏ´Â °úÁ¤ÀÔ´Ï´Ù. ÀÌ´Â ¹®ÀÚ ¼öÁØÀÇ ÀÛ¾÷À¸·Î ÇÁ·¹ÀÓÈ­µÉ ¼ö ÀÖÀ¸¸ç, ¿¹¸¦ µé¾î "This is Natural Language Processing Lecture"¶ó´Â ÀÔ·ÂÀÌ "This / is / Natural / Language / Processing / Lecture"¿Í °°ÀÌ ºĞÇÒµÇ´Â ¹æ½ÄÀÔ´Ï´Ù. ´ëºÎºĞÀÇ ¾ğ¾î¿Í µµ¸ŞÀÎ¿¡¼­´Â ºñ±³Àû ½¬¿î ÀÛ¾÷ÀÌÁö¸¸, Áß±¹¾î¿Í ¼Ò¼È ¹Ìµğ¾î¿Í °°Àº °æ¿ì¿¡´Â ¸Å¿ì º¹ÀâÇÒ ¼ö ÀÖ½À´Ï´Ù.
+2024-12-12 15:56:25,125 - INFO - chat_history: [{'role': 'user', 'content': ' NLP¸¦ ¾Ë·ÁÁà'}, {'role': 'ai', 'content': 'ÀÚ¿¬¾î Ã³¸®(Natural Language Processing, NLP)´Â ÀÚ¿¬¾îÀÇ º¹Àâ¼ºÀ» ´Ù·ç¾î Á¤º¸¸¦ Ã³¸®ÇÏ°Å³ª »ı¼ºÇÏ´Â ±â¼úÀÔ´Ï´Ù. NLP´Â ÁÖ·Î ¿ø½Ã ÅØ½ºÆ®³ª À½¼ºÀ» ±¸Á¶È­µÈ Á¤º¸·Î º¯È¯ÇÏ°Å³ª, Á¦¾îµÈ ÅØ½ºÆ®/À½¼ºÀ¸·Î º¯È¯ÇÏ´Â ÀÛ¾÷À» Æ÷ÇÔÇÕ´Ï´Ù. ÀÌ °úÁ¤¿¡¼­´Â ÁÖ·Î ÅØ½ºÆ® µ¥ÀÌÅÍ¸¦ Áß½ÉÀ¸·Î ´Ù·ç°Ô µË´Ï´Ù.'}]
+2024-12-12 15:56:25,125 - INFO - Updated history for thread U084Y1C0X4H: [{'role': 'user', 'content': ' NLP¸¦ ¾Ë·ÁÁà'}, {'role': 'ai', 'content': 'ÀÚ¿¬¾î Ã³¸®(Natural Language Processing, NLP)´Â ÀÚ¿¬¾îÀÇ º¹Àâ¼ºÀ» ´Ù·ç¾î Á¤º¸¸¦ Ã³¸®ÇÏ°Å³ª »ı¼ºÇÏ´Â ±â¼úÀÔ´Ï´Ù. NLP´Â ÁÖ·Î ¿ø½Ã ÅØ½ºÆ®³ª À½¼ºÀ» ±¸Á¶È­µÈ Á¤º¸·Î º¯È¯ÇÏ°Å³ª, Á¦¾îµÈ ÅØ½ºÆ®/À½¼ºÀ¸·Î º¯È¯ÇÏ´Â ÀÛ¾÷À» Æ÷ÇÔÇÕ´Ï´Ù. ÀÌ °úÁ¤¿¡¼­´Â ÁÖ·Î ÅØ½ºÆ® µ¥ÀÌÅÍ¸¦ Áß½ÉÀ¸·Î ´Ù·ç°Ô µË´Ï´Ù.'}, {'role': 'user', 'content': ' tokenizationÀº?'}, {'role': 'ai', 'content': 'ÅäÅ«È­(Tokenization)´Â ¿ø½Ã ÅØ½ºÆ® µ¥ÀÌÅÍ¸¦ ÅäÅ«À¸·Î ºĞÇÒÇÏ´Â °úÁ¤ÀÔ´Ï´Ù. ÀÌ´Â ¹®ÀÚ ¼öÁØÀÇ ÀÛ¾÷À¸·Î ÇÁ·¹ÀÓÈ­µÉ ¼ö ÀÖÀ¸¸ç, ¿¹¸¦ µé¾î "This is Natural Language Processing Lecture"¶ó´Â ÀÔ·ÂÀÌ "This / is / Natural / Language / Processing / Lecture"¿Í °°ÀÌ ºĞÇÒµÇ´Â ¹æ½ÄÀÔ´Ï´Ù. ´ëºÎºĞÀÇ ¾ğ¾î¿Í µµ¸ŞÀÎ¿¡¼­´Â ºñ±³Àû ½¬¿î ÀÛ¾÷ÀÌÁö¸¸, Áß±¹¾î¿Í ¼Ò¼È ¹Ìµğ¾î¿Í °°Àº °æ¿ì¿¡´Â ¸Å¿ì º¹ÀâÇÒ ¼ö ÀÖ½À´Ï´Ù.'}]
+2024-12-12 16:02:32,177 - INFO - A new session has been established (session id: 0c7408b3-0fa4-4bc0-96a4-71c53d358551)
+2024-12-12 16:02:32,178 - INFO - Bolt app is running!
+2024-12-12 16:02:32,281 - INFO - Starting to receive messages from a new connection (session id: 0c7408b3-0fa4-4bc0-96a4-71c53d358551)
+2024-12-12 16:02:56,800 - INFO - User U084Y1C0X4H:  NLP¸¦ ¾Ë·ÁÁà
+2024-12-12 16:02:59,985 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\JOSHUA\\miniconda3\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-12 16:02:59,987 - INFO - Looking for plugins in pinecone_plugins.inference
+2024-12-12 16:03:00,062 - INFO - Installing plugin inference into Pinecone
+2024-12-12 16:03:04,059 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-12 16:03:06,207 - INFO - Retrieved documents: Natural Language ProcessingIntroduction to NLP
+Junyeong KimDept. of AI, Chung-AngUniversity
+
+Natural Language ProcessingSpring, 2024
+Machine Translation¢®INPUT:    My name is Bob and I live in NY!¢®OUTPUT: ³» ÀÌ¸§Àº ¹äÀÌ°í³ª´Â ´º¿å¿¡ »ì¾Æ!
+
+Natural Language ProcessingSpring, 2024
+Brief History of NLP
+
+Natural Language ProcessingSpring, 2024
+What is Natural Language Processing?¢®In a nutshell, NLP consists in handling the complexities of natural languages ¡°to do something¡±lRaw text / speech \xe0Structured informationlRaw text / speech \xe0(Controlled) Text/Speech¢®In this course, we will focus on textual data
+2024-12-12 16:03:12,121 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-12 16:03:12,337 - INFO - Retrieved documents: Natural Language ProcessingIntroduction to NLP
+Junyeong KimDept. of AI, Chung-AngUniversity
+
+Natural Language ProcessingSpring, 2024
+Machine Translation¢®INPUT:    My name is Bob and I live in NY!¢®OUTPUT: ³» ÀÌ¸§Àº ¹äÀÌ°í³ª´Â ´º¿å¿¡ »ì¾Æ!
+
+Natural Language ProcessingSpring, 2024
+Brief History of NLP
+
+Natural Language ProcessingSpring, 2024
+What is Natural Language Processing?¢®In a nutshell, NLP consists in handling the complexities of natural languages ¡°to do something¡±lRaw text / speech \xe0Structured informationlRaw text / speech \xe0(Controlled) Text/Speech¢®In this course, we will focus on textual data
+2024-12-12 16:03:12,898 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 16:03:14,729 - INFO - AI massage: ÀÚ¿¬¾î Ã³¸®(Natural Language Processing, NLP)´Â ÀÚ¿¬¾îÀÇ º¹Àâ¼ºÀ» ´Ù·ç¾î Á¤º¸¸¦ Ã³¸®ÇÏ°Å³ª º¯È¯ÇÏ´Â ±â¼úÀÔ´Ï´Ù. NLP´Â ÁÖ·Î ¿ø½Ã ÅØ½ºÆ®³ª À½¼ºÀ» ±¸Á¶È­µÈ Á¤º¸·Î º¯È¯ÇÏ°Å³ª, Á¦¾îµÈ ÅØ½ºÆ®/À½¼ºÀ¸·Î º¯È¯ÇÏ´Â µ¥ »ç¿ëµË´Ï´Ù. ÀÌ °úÁ¤¿¡¼­´Â ÁÖ·Î ÅØ½ºÆ® µ¥ÀÌÅÍ¿¡ ÃÊÁ¡À» ¸ÂÃß°Ô µË´Ï´Ù.
+2024-12-12 16:03:14,729 - INFO - chat_history: []
+2024-12-12 16:03:14,729 - INFO - Updated history for thread U084Y1C0X4H: [{'role': 'user', 'content': ' NLP¸¦ ¾Ë·ÁÁà'}, {'role': 'ai', 'content': 'ÀÚ¿¬¾î Ã³¸®(Natural Language Processing, NLP)´Â ÀÚ¿¬¾îÀÇ º¹Àâ¼ºÀ» ´Ù·ç¾î Á¤º¸¸¦ Ã³¸®ÇÏ°Å³ª º¯È¯ÇÏ´Â ±â¼úÀÔ´Ï´Ù. NLP´Â ÁÖ·Î ¿ø½Ã ÅØ½ºÆ®³ª À½¼ºÀ» ±¸Á¶È­µÈ Á¤º¸·Î º¯È¯ÇÏ°Å³ª, Á¦¾îµÈ ÅØ½ºÆ®/À½¼ºÀ¸·Î º¯È¯ÇÏ´Â µ¥ »ç¿ëµË´Ï´Ù. ÀÌ °úÁ¤¿¡¼­´Â ÁÖ·Î ÅØ½ºÆ® µ¥ÀÌÅÍ¿¡ ÃÊÁ¡À» ¸ÂÃß°Ô µË´Ï´Ù.'}]
+2024-12-12 16:03:36,234 - INFO - User U084Y1C0X4H:  tokenizationÀº?
+2024-12-12 16:03:39,582 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\JOSHUA\\miniconda3\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-12 16:03:39,585 - INFO - Looking for plugins in pinecone_plugins.inference
+2024-12-12 16:03:39,585 - INFO - Installing plugin inference into Pinecone
+2024-12-12 16:03:42,832 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-12 16:03:44,933 - INFO - Retrieved documents: Natural Language ProcessingSpring, 2024
+Tokenization¢®Definition: Tokenization consists in segmenting raw textual data into tokens:¢®Can be framed as a character level tasklInput: This is Natural Language Processing LecturelOutput: This / is / Natural / Language / Processing / Lecture¢®Easy task for most languages and domainslCan be very complex in some cases (e.g., Chinese, Social Media¡¦)
+
+Natural Language ProcessingSpring, 2024
+Token¢®With regard to our end task, a token can be:lA wordlA sub-word: e.g., a sequence of 3 characterslA characterlAn sequence of characters (sometimes a word, sometimes several words, sometimes a sub-word¡¦)
+
+Natural Language ProcessingSpring, 2024
+Notation¢®We assume:lA token is the basic unit of discrete data, defined to be an item from a vocabulary indexed by 1, ¡¦, V.lA document is a sequence of N words denoted by \U0001d451=\U0001d464",\U0001d464#,¡¦,\U0001d464$, where \U0001d464$is the theN-thword in the sequence.lA corpus is a collection of M documents denoted by \U0001d437=(\U0001d451",\U0001d451#,¡¦,\U0001d451%)
+
+Natural Language ProcessingSpring, 2024
+Machine Translation¢®INPUT:    My name is Bob and I live in NY!¢®OUTPUT: ³» ÀÌ¸§Àº ¹äÀÌ°í³ª´Â ´º¿å¿¡ »ì¾Æ!
+2024-12-12 16:03:51,169 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 16:03:53,849 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-12 16:03:54,072 - INFO - Retrieved documents: Natural Language ProcessingIntroduction to NLP
+Junyeong KimDept. of AI, Chung-AngUniversity
+
+Natural Language ProcessingSpring, 2024
+Machine Translation¢®INPUT:    My name is Bob and I live in NY!¢®OUTPUT: ³» ÀÌ¸§Àº ¹äÀÌ°í³ª´Â ´º¿å¿¡ »ì¾Æ!
+
+Natural Language ProcessingSpring, 2024
+Ambiguous¢®Disambiguating can requires Discourse KnowledgeQ: Where can I find a vegetarian restaurant in Seoul?
+Q: Give me the top ranked ones, in Dongjak-gu.
+Q: How far is the closest one from my current location?
+A: Here is a list of restaurant in Seoul ¡¦
+A: Here are the top ranked restaurant in Dongjak-gu
+
+Natural Language ProcessingSpring, 2024
+What is Natural Language Processing?¢®In a nutshell, NLP consists in handling the complexities of natural languages ¡°to do something¡±lRaw text / speech \xe0Structured informationlRaw text / speech \xe0(Controlled) Text/Speech¢®In this course, we will focus on textual data
+2024-12-12 16:03:54,611 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 16:03:56,402 - INFO - AI massage: ÅäÅ«È­(tokenization)´Â ÀÚ¿¬¾î Ã³¸®¿¡¼­ ¿ø½Ã ÅØ½ºÆ®¸¦ ÀÇ¹Ì ÀÖ´Â ´ÜÀ§ÀÎ 'ÅäÅ«'À¸·Î ºĞÇÒÇÏ´Â °úÁ¤ÀÔ´Ï´Ù. ÅäÅ«Àº ÀÏ¹İÀûÀ¸·Î ´Ü¾î, ±¸, ¹®Àå ¶Ç´Â ±âÈ£¿Í °°Àº ¾ğ¾îÀÇ ±¸¼º ¿ä¼Ò¸¦ ÀÇ¹ÌÇÕ´Ï´Ù. ÅäÅ«È­¸¦ ÅëÇØ ÅØ½ºÆ®¸¦ ºĞ¼®ÇÏ°í Ã³¸®ÇÏ±â ½¬¿î ÇüÅÂ·Î º¯È¯ÇÒ ¼ö ÀÖÀ¸¸ç, ÀÌ´Â ÀÌÈÄÀÇ NLP ÀÛ¾÷(¿¹: ÅØ½ºÆ® ºĞ·ù, °¨Á¤ ºĞ¼® µî)¿¡ ÇÊ¼öÀûÀÎ ´Ü°èÀÔ´Ï´Ù.
+2024-12-12 16:03:56,403 - INFO - chat_history: [{'role': 'user', 'content': ' NLP¸¦ ¾Ë·ÁÁà'}, {'role': 'ai', 'content': 'ÀÚ¿¬¾î Ã³¸®(Natural Language Processing, NLP)´Â ÀÚ¿¬¾îÀÇ º¹Àâ¼ºÀ» ´Ù·ç¾î Á¤º¸¸¦ Ã³¸®ÇÏ°Å³ª º¯È¯ÇÏ´Â ±â¼úÀÔ´Ï´Ù. NLP´Â ÁÖ·Î ¿ø½Ã ÅØ½ºÆ®³ª À½¼ºÀ» ±¸Á¶È­µÈ Á¤º¸·Î º¯È¯ÇÏ°Å³ª, Á¦¾îµÈ ÅØ½ºÆ®/À½¼ºÀ¸·Î º¯È¯ÇÏ´Â µ¥ »ç¿ëµË´Ï´Ù. ÀÌ °úÁ¤¿¡¼­´Â ÁÖ·Î ÅØ½ºÆ® µ¥ÀÌÅÍ¿¡ ÃÊÁ¡À» ¸ÂÃß°Ô µË´Ï´Ù.'}]
+2024-12-12 16:03:56,403 - INFO - Updated history for thread U084Y1C0X4H: [{'role': 'user', 'content': ' NLP¸¦ ¾Ë·ÁÁà'}, {'role': 'ai', 'content': 'ÀÚ¿¬¾î Ã³¸®(Natural Language Processing, NLP)´Â ÀÚ¿¬¾îÀÇ º¹Àâ¼ºÀ» ´Ù·ç¾î Á¤º¸¸¦ Ã³¸®ÇÏ°Å³ª º¯È¯ÇÏ´Â ±â¼úÀÔ´Ï´Ù. NLP´Â ÁÖ·Î ¿ø½Ã ÅØ½ºÆ®³ª À½¼ºÀ» ±¸Á¶È­µÈ Á¤º¸·Î º¯È¯ÇÏ°Å³ª, Á¦¾îµÈ ÅØ½ºÆ®/À½¼ºÀ¸·Î º¯È¯ÇÏ´Â µ¥ »ç¿ëµË´Ï´Ù. ÀÌ °úÁ¤¿¡¼­´Â ÁÖ·Î ÅØ½ºÆ® µ¥ÀÌÅÍ¿¡ ÃÊÁ¡À» ¸ÂÃß°Ô µË´Ï´Ù.'}, {'role': 'user', 'content': ' tokenizationÀº?'}, {'role': 'ai', 'content': "ÅäÅ«È­(tokenization)´Â ÀÚ¿¬¾î Ã³¸®¿¡¼­ ¿ø½Ã ÅØ½ºÆ®¸¦ ÀÇ¹Ì ÀÖ´Â ´ÜÀ§ÀÎ 'ÅäÅ«'À¸·Î ºĞÇÒÇÏ´Â °úÁ¤ÀÔ´Ï´Ù. ÅäÅ«Àº ÀÏ¹İÀûÀ¸·Î ´Ü¾î, ±¸, ¹®Àå ¶Ç´Â ±âÈ£¿Í °°Àº ¾ğ¾îÀÇ ±¸¼º ¿ä¼Ò¸¦ ÀÇ¹ÌÇÕ´Ï´Ù. ÅäÅ«È­¸¦ ÅëÇØ ÅØ½ºÆ®¸¦ ºĞ¼®ÇÏ°í Ã³¸®ÇÏ±â ½¬¿î ÇüÅÂ·Î º¯È¯ÇÒ ¼ö ÀÖÀ¸¸ç, ÀÌ´Â ÀÌÈÄÀÇ NLP ÀÛ¾÷(¿¹: ÅØ½ºÆ® ºĞ·ù, °¨Á¤ ºĞ¼® µî)¿¡ ÇÊ¼öÀûÀÎ ´Ü°èÀÔ´Ï´Ù."}]
+2024-12-12 16:04:21,834 - INFO - User U084Y1C0X4H:  ´õ ½±°Ô ¼³¸íÇØÁà
+2024-12-12 16:04:24,507 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\JOSHUA\\miniconda3\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-12 16:04:24,509 - INFO - Looking for plugins in pinecone_plugins.inference
+2024-12-12 16:04:24,509 - INFO - Installing plugin inference into Pinecone
+2024-12-12 16:04:27,435 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-12 16:04:29,487 - INFO - Retrieved documents: Natural Language ProcessingSpring, 2024
+Machine Translation¢®INPUT:    My name is Bob and I live in NY!¢®OUTPUT: ³» ÀÌ¸§Àº ¹äÀÌ°í³ª´Â ´º¿å¿¡ »ì¾Æ!
+
+Natural Language ProcessingIntroduction to NLP
+Junyeong KimDept. of AI, Chung-AngUniversity
+
+Natural Language ProcessingSpring, 2024
+Ambiguous¢®Disambiguating can requires Discourse KnowledgeQ: Where can I find a vegetarian restaurant in Seoul?
+Q: Give me the top ranked ones, in Dongjak-gu.
+Q: How far is the closest one from my current location?
+A: Here is a list of restaurant in Seoul ¡¦
+A: Here are the top ranked restaurant in Dongjak-gu
+
+Natural Language ProcessingSpring, 2024
+Statistical Description of a Corpus¢®We describe statistically a corpus of 800 scientific articles\xe0In a large enough corpus, word distributions follow a ZipfLaw :
+lZipflaw is a Power relation between the rank and frequency¢®The most frequent entities are much more frequent than the less frequent oneslUnder a Zipflaw, log\U0001d453!and log(\U0001d458)are linearly related
+2024-12-12 16:04:37,155 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 16:04:40,435 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-12 16:04:40,653 - INFO - Retrieved documents: Natural Language ProcessingIntroduction to NLP
+Junyeong KimDept. of AI, Chung-AngUniversity
+
+Natural Language ProcessingSpring, 2024
+Machine Translation¢®INPUT:    My name is Bob and I live in NY!¢®OUTPUT: ³» ÀÌ¸§Àº ¹äÀÌ°í³ª´Â ´º¿å¿¡ »ì¾Æ!
+
+Natural Language ProcessingSpring, 2024
+Why Natural Language Processing¢®What Products?lSearch: +2 billion Google users, 700 millions Baidu userslSocial Media: +3 billion users of Social media (Facebook, Instagram, WeChat, Twitter¡¦)lVoice assistant: +100 million users (Alexa, Siri, Google Assistant)lMachine Translation: 500M users for google translate
+
+Natural Language ProcessingSpring, 2024
+Why Natural Language Processing?¢®What do we use language for?lWe communicateusing languagelWe think(partly) with languagelWe tell stories in languagelWe build Scientific Theories with languagelWe make friends/build relationshipswith language¢®Why NLP?lAccess Knowledge (search engine, recommender system, and so on)lCommunicate(e.g., Translation)lLinguistics and Cognitive Sciences (AnalyseLanguages themselves)
+2024-12-12 16:04:41,242 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 16:04:44,298 - INFO - AI massage: ÅäÅ«È­(tokenization)´Â ±ä ¹®ÀåÀ» ÀÛÀº Á¶°¢À¸·Î ³ª´©´Â °úÁ¤ÀÔ´Ï´Ù. ¿¹¸¦ µé¾î, "³ª´Â »ç°ú¸¦ ÁÁ¾ÆÇØ¿ä."¶ó´Â ¹®ÀåÀÌ ÀÖÀ» ¶§, ÀÌ ¹®ÀåÀ» "³ª´Â", "»ç°ú¸¦", "ÁÁ¾ÆÇØ¿ä"¶ó´Â ¼¼ °³ÀÇ Á¶°¢À¸·Î ³ª´©´Â °ÍÀÔ´Ï´Ù. ÀÌ·¸°Ô ³ª´©¸é ÄÄÇ»ÅÍ°¡ ¹®ÀåÀ» ´õ ½±°Ô ÀÌÇØÇÏ°í ºĞ¼®ÇÒ ¼ö ÀÖ°Ô µË´Ï´Ù.
+2024-12-12 16:04:44,298 - INFO - chat_history: [{'role': 'user', 'content': ' NLP¸¦ ¾Ë·ÁÁà'}, {'role': 'ai', 'content': 'ÀÚ¿¬¾î Ã³¸®(Natural Language Processing, NLP)´Â ÀÚ¿¬¾îÀÇ º¹Àâ¼ºÀ» ´Ù·ç¾î Á¤º¸¸¦ Ã³¸®ÇÏ°Å³ª º¯È¯ÇÏ´Â ±â¼úÀÔ´Ï´Ù. NLP´Â ÁÖ·Î ¿ø½Ã ÅØ½ºÆ®³ª À½¼ºÀ» ±¸Á¶È­µÈ Á¤º¸·Î º¯È¯ÇÏ°Å³ª, Á¦¾îµÈ ÅØ½ºÆ®/À½¼ºÀ¸·Î º¯È¯ÇÏ´Â µ¥ »ç¿ëµË´Ï´Ù. ÀÌ °úÁ¤¿¡¼­´Â ÁÖ·Î ÅØ½ºÆ® µ¥ÀÌÅÍ¿¡ ÃÊÁ¡À» ¸ÂÃß°Ô µË´Ï´Ù.'}, {'role': 'user', 'content': ' tokenizationÀº?'}, {'role': 'ai', 'content': "ÅäÅ«È­(tokenization)´Â ÀÚ¿¬¾î Ã³¸®¿¡¼­ ¿ø½Ã ÅØ½ºÆ®¸¦ ÀÇ¹Ì ÀÖ´Â ´ÜÀ§ÀÎ 'ÅäÅ«'À¸·Î ºĞÇÒÇÏ´Â °úÁ¤ÀÔ´Ï´Ù. ÅäÅ«Àº ÀÏ¹İÀûÀ¸·Î ´Ü¾î, ±¸, ¹®Àå ¶Ç´Â ±âÈ£¿Í °°Àº ¾ğ¾îÀÇ ±¸¼º ¿ä¼Ò¸¦ ÀÇ¹ÌÇÕ´Ï´Ù. ÅäÅ«È­¸¦ ÅëÇØ ÅØ½ºÆ®¸¦ ºĞ¼®ÇÏ°í Ã³¸®ÇÏ±â ½¬¿î ÇüÅÂ·Î º¯È¯ÇÒ ¼ö ÀÖÀ¸¸ç, ÀÌ´Â ÀÌÈÄÀÇ NLP ÀÛ¾÷(¿¹: ÅØ½ºÆ® ºĞ·ù, °¨Á¤ ºĞ¼® µî)¿¡ ÇÊ¼öÀûÀÎ ´Ü°èÀÔ´Ï´Ù."}]
+2024-12-12 16:04:44,299 - INFO - Updated history for thread U084Y1C0X4H: [{'role': 'user', 'content': ' NLP¸¦ ¾Ë·ÁÁà'}, {'role': 'ai', 'content': 'ÀÚ¿¬¾î Ã³¸®(Natural Language Processing, NLP)´Â ÀÚ¿¬¾îÀÇ º¹Àâ¼ºÀ» ´Ù·ç¾î Á¤º¸¸¦ Ã³¸®ÇÏ°Å³ª º¯È¯ÇÏ´Â ±â¼úÀÔ´Ï´Ù. NLP´Â ÁÖ·Î ¿ø½Ã ÅØ½ºÆ®³ª À½¼ºÀ» ±¸Á¶È­µÈ Á¤º¸·Î º¯È¯ÇÏ°Å³ª, Á¦¾îµÈ ÅØ½ºÆ®/À½¼ºÀ¸·Î º¯È¯ÇÏ´Â µ¥ »ç¿ëµË´Ï´Ù. ÀÌ °úÁ¤¿¡¼­´Â ÁÖ·Î ÅØ½ºÆ® µ¥ÀÌÅÍ¿¡ ÃÊÁ¡À» ¸ÂÃß°Ô µË´Ï´Ù.'}, {'role': 'user', 'content': ' tokenizationÀº?'}, {'role': 'ai', 'content': "ÅäÅ«È­(tokenization)´Â ÀÚ¿¬¾î Ã³¸®¿¡¼­ ¿ø½Ã ÅØ½ºÆ®¸¦ ÀÇ¹Ì ÀÖ´Â ´ÜÀ§ÀÎ 'ÅäÅ«'À¸·Î ºĞÇÒÇÏ´Â °úÁ¤ÀÔ´Ï´Ù. ÅäÅ«Àº ÀÏ¹İÀûÀ¸·Î ´Ü¾î, ±¸, ¹®Àå ¶Ç´Â ±âÈ£¿Í °°Àº ¾ğ¾îÀÇ ±¸¼º ¿ä¼Ò¸¦ ÀÇ¹ÌÇÕ´Ï´Ù. ÅäÅ«È­¸¦ ÅëÇØ ÅØ½ºÆ®¸¦ ºĞ¼®ÇÏ°í Ã³¸®ÇÏ±â ½¬¿î ÇüÅÂ·Î º¯È¯ÇÒ ¼ö ÀÖÀ¸¸ç, ÀÌ´Â ÀÌÈÄÀÇ NLP ÀÛ¾÷(¿¹: ÅØ½ºÆ® ºĞ·ù, °¨Á¤ ºĞ¼® µî)¿¡ ÇÊ¼öÀûÀÎ ´Ü°èÀÔ´Ï´Ù."}, {'role': 'user', 'content': ' ´õ ½±°Ô ¼³¸íÇØÁà'}, {'role': 'ai', 'content': 'ÅäÅ«È­(tokenization)´Â ±ä ¹®ÀåÀ» ÀÛÀº Á¶°¢À¸·Î ³ª´©´Â °úÁ¤ÀÔ´Ï´Ù. ¿¹¸¦ µé¾î, "³ª´Â »ç°ú¸¦ ÁÁ¾ÆÇØ¿ä."¶ó´Â ¹®ÀåÀÌ ÀÖÀ» ¶§, ÀÌ ¹®ÀåÀ» "³ª´Â", "»ç°ú¸¦", "ÁÁ¾ÆÇØ¿ä"¶ó´Â ¼¼ °³ÀÇ Á¶°¢À¸·Î ³ª´©´Â °ÍÀÔ´Ï´Ù. ÀÌ·¸°Ô ³ª´©¸é ÄÄÇ»ÅÍ°¡ ¹®ÀåÀ» ´õ ½±°Ô ÀÌÇØÇÏ°í ºĞ¼®ÇÒ ¼ö ÀÖ°Ô µË´Ï´Ù.'}]
+2024-12-12 16:05:56,968 - INFO - A new session has been established (session id: 31c934a0-c2fb-4688-9cb7-cfdda9260b52)
+2024-12-12 16:05:56,968 - INFO - Bolt app is running!
+2024-12-12 16:05:57,069 - INFO - Starting to receive messages from a new connection (session id: 31c934a0-c2fb-4688-9cb7-cfdda9260b52)
+2024-12-12 16:06:09,072 - INFO - User U084Y1C0X4H:  ì´ ê°•ì˜ëŠ” ì–´ëŠ ëŒ€í•™êµì—ì„œ ì œì‘í•œê±°ì•¼?
+2024-12-12 16:06:12,645 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\JOSHUA\\miniconda3\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-12 16:06:12,646 - INFO - Looking for plugins in pinecone_plugins.inference
+2024-12-12 16:06:12,704 - INFO - Installing plugin inference into Pinecone
+2024-12-12 16:06:19,685 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-12 16:06:21,638 - INFO - Retrieved documents: Natural Language ProcessingIntroduction to NLP
+Junyeong KimDept. of AI, Chung-AngUniversity
+
+Natural Language ProcessingSpring, 2024
+Machine TranslationÂ¡INPUT:    My name is Bob and I live in NY!Â¡OUTPUT: ë‚´ ì´ë¦„ì€ ë°¥ì´ê³ ë‚˜ëŠ” ë‰´ìš•ì— ì‚´ì•„!
+
+Natural Language ProcessingSpring, 2024
+AmbiguousÂ¡Disambiguating can requires Discourse KnowledgeQ: Where can I find a vegetarian restaurant in Seoul?
+Q: Give me the top ranked ones, in Dongjak-gu.
+Q: How far is the closest one from my current location?
+A: Here is a list of restaurant in Seoul â€¦
+A: Here are the top ranked restaurant in Dongjak-gu
+
+Natural Language ProcessingSpring, 2024
+GraphemicDiversity
+2024-12-12 16:06:27,487 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-12 16:06:27,936 - INFO - Retrieved documents: Natural Language ProcessingIntroduction to NLP
+Junyeong KimDept. of AI, Chung-AngUniversity
+
+Natural Language ProcessingSpring, 2024
+Machine TranslationÂ¡INPUT:    My name is Bob and I live in NY!Â¡OUTPUT: ë‚´ ì´ë¦„ì€ ë°¥ì´ê³ ë‚˜ëŠ” ë‰´ìš•ì— ì‚´ì•„!
+
+Natural Language ProcessingSpring, 2024
+AmbiguousÂ¡Disambiguating can requires Discourse KnowledgeQ: Where can I find a vegetarian restaurant in Seoul?
+Q: Give me the top ranked ones, in Dongjak-gu.
+Q: How far is the closest one from my current location?
+A: Here is a list of restaurant in Seoul â€¦
+A: Here are the top ranked restaurant in Dongjak-gu
+
+Natural Language ProcessingSpring, 2024
+GraphemicDiversity
+2024-12-12 16:06:28,463 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 16:06:29,265 - INFO - AI massage: ì´ ê°•ì˜ëŠ” ì¤‘ì•™ëŒ€í•™êµì—ì„œ ì œì‘í•œ ê²ƒì…ë‹ˆë‹¤.
+2024-12-12 16:06:29,265 - INFO - chat_history: []
+2024-12-12 16:06:29,265 - INFO - Updated history for thread U084Y1C0X4H: [{'role': 'user', 'content': ' ì´ ê°•ì˜ëŠ” ì–´ëŠ ëŒ€í•™êµì—ì„œ ì œì‘í•œê±°ì•¼?'}, {'role': 'ai', 'content': 'ì´ ê°•ì˜ëŠ” ì¤‘ì•™ëŒ€í•™êµì—ì„œ ì œì‘í•œ ê²ƒì…ë‹ˆë‹¤.'}]
+2024-12-12 16:07:20,143 - INFO - User U084Y1C0X4H:  ë°ì´í„° ì „ì²˜ë¦¬ì— ëŒ€í•œ ë‚´ìš©ë„ ìˆì–´?
+2024-12-12 16:07:22,149 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\JOSHUA\\miniconda3\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-12 16:07:22,151 - INFO - Looking for plugins in pinecone_plugins.inference
+2024-12-12 16:07:22,151 - INFO - Installing plugin inference into Pinecone
+2024-12-12 16:07:24,577 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-12 16:07:26,647 - INFO - Retrieved documents: Natural Language ProcessingIntroduction to NLP
+Junyeong KimDept. of AI, Chung-AngUniversity
+
+Natural Language ProcessingSpring, 2024
+Machine TranslationÂ¡INPUT:    My name is Bob and I live in NY!Â¡OUTPUT: ë‚´ ì´ë¦„ì€ ë°¥ì´ê³ ë‚˜ëŠ” ë‰´ìš•ì— ì‚´ì•„!
+
+Natural Language ProcessingSpring, 2024
+Document Classification
+
+Natural Language ProcessingSpring, 2024
+AmbiguousÂ¡Disambiguating can requires Discourse KnowledgeQ: Where can I find a vegetarian restaurant in Seoul?
+Q: Give me the top ranked ones, in Dongjak-gu.
+Q: How far is the closest one from my current location?
+A: Here is a list of restaurant in Seoul â€¦
+A: Here are the top ranked restaurant in Dongjak-gu
+2024-12-12 16:07:35,703 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 16:07:40,138 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-12 16:07:40,374 - INFO - Retrieved documents: Natural Language ProcessingIntroduction to NLP
+Junyeong KimDept. of AI, Chung-AngUniversity
+
+Natural Language ProcessingSpring, 2024
+AmbiguousÂ¡Disambiguating can requires Discourse KnowledgeQ: Where can I find a vegetarian restaurant in Seoul?
+Q: Give me the top ranked ones, in Dongjak-gu.
+Q: How far is the closest one from my current location?
+A: Here is a list of restaurant in Seoul â€¦
+A: Here are the top ranked restaurant in Dongjak-gu
+
+Natural Language ProcessingSpring, 2024
+Machine TranslationÂ¡INPUT:    My name is Bob and I live in NY!Â¡OUTPUT: ë‚´ ì´ë¦„ì€ ë°¥ì´ê³ ë‚˜ëŠ” ë‰´ìš•ì— ì‚´ì•„!
+
+Natural Language ProcessingSpring, 2024
+Document Classification
+2024-12-12 16:07:40,958 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 16:07:41,810 - INFO - AI massage: ì œê³µëœ ë¬¸ë§¥ì—ëŠ” ë°ì´í„° ì „ì²˜ë¦¬ì— ëŒ€í•œ ë‚´ìš©ì´ í¬í•¨ë˜ì–´ ìˆì§€ ì•ŠìŠµë‹ˆë‹¤.
+2024-12-12 16:07:41,810 - INFO - chat_history: [{'role': 'user', 'content': ' ì´ ê°•ì˜ëŠ” ì–´ëŠ ëŒ€í•™êµì—ì„œ ì œì‘í•œê±°ì•¼?'}, {'role': 'ai', 'content': 'ì´ ê°•ì˜ëŠ” ì¤‘ì•™ëŒ€í•™êµì—ì„œ ì œì‘í•œ ê²ƒì…ë‹ˆë‹¤.'}]
+2024-12-12 16:07:41,811 - INFO - Updated history for thread U084Y1C0X4H: [{'role': 'user', 'content': ' ì´ ê°•ì˜ëŠ” ì–´ëŠ ëŒ€í•™êµì—ì„œ ì œì‘í•œê±°ì•¼?'}, {'role': 'ai', 'content': 'ì´ ê°•ì˜ëŠ” ì¤‘ì•™ëŒ€í•™êµì—ì„œ ì œì‘í•œ ê²ƒì…ë‹ˆë‹¤.'}, {'role': 'user', 'content': ' ë°ì´í„° ì „ì²˜ë¦¬ì— ëŒ€í•œ ë‚´ìš©ë„ ìˆì–´?'}, {'role': 'ai', 'content': 'ì œê³µëœ ë¬¸ë§¥ì—ëŠ” ë°ì´í„° ì „ì²˜ë¦¬ì— ëŒ€í•œ ë‚´ìš©ì´ í¬í•¨ë˜ì–´ ìˆì§€ ì•ŠìŠµë‹ˆë‹¤.'}]
+2024-12-12 16:07:58,636 - INFO - User U084Y1C0X4H:  ê·¸ëŸ¼ ì–´ë–¤ ë‚´ìš©ì´ ìˆì–´?
+2024-12-12 16:08:02,505 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\JOSHUA\\miniconda3\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-12 16:08:02,507 - INFO - Looking for plugins in pinecone_plugins.inference
+2024-12-12 16:08:02,507 - INFO - Installing plugin inference into Pinecone
+2024-12-12 16:08:05,338 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-12 16:08:07,537 - INFO - Retrieved documents: Natural Language ProcessingSpring, 2024
+Machine TranslationÂ¡INPUT:    My name is Bob and I live in NY!Â¡OUTPUT: ë‚´ ì´ë¦„ì€ ë°¥ì´ê³ ë‚˜ëŠ” ë‰´ìš•ì— ì‚´ì•„!
+
+Natural Language ProcessingIntroduction to NLP
+Junyeong KimDept. of AI, Chung-AngUniversity
+
+Natural Language ProcessingSpring, 2024
+AmbiguousÂ¡Disambiguating can requires Discourse KnowledgeQ: Where can I find a vegetarian restaurant in Seoul?
+Q: Give me the top ranked ones, in Dongjak-gu.
+Q: How far is the closest one from my current location?
+A: Here is a list of restaurant in Seoul â€¦
+A: Here are the top ranked restaurant in Dongjak-gu
+
+Natural Language ProcessingSpring, 2024
+Document Classification
+2024-12-12 16:08:15,732 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 16:08:19,014 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-12 16:08:19,238 - INFO - Retrieved documents: Natural Language ProcessingIntroduction to NLP
+Junyeong KimDept. of AI, Chung-AngUniversity
+
+Natural Language ProcessingSpring, 2024
+AmbiguousÂ¡Disambiguating can requires Discourse KnowledgeQ: Where can I find a vegetarian restaurant in Seoul?
+Q: Give me the top ranked ones, in Dongjak-gu.
+Q: How far is the closest one from my current location?
+A: Here is a list of restaurant in Seoul â€¦
+A: Here are the top ranked restaurant in Dongjak-gu
+
+Natural Language ProcessingSpring, 2024
+Machine TranslationÂ¡INPUT:    My name is Bob and I live in NY!Â¡OUTPUT: ë‚´ ì´ë¦„ì€ ë°¥ì´ê³ ë‚˜ëŠ” ë‰´ìš•ì— ì‚´ì•„!
+
+Natural Language ProcessingSpring, 2024
+Document Classification
+2024-12-12 16:08:19,771 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 16:08:21,062 - INFO - AI massage: ì œê³µëœ ë¬¸ë§¥ì—ëŠ” ìì—°ì–´ ì²˜ë¦¬(NLP)ì˜ ì†Œê°œ, ëª¨í˜¸ì„± í•´ì†Œ, ê¸°ê³„ ë²ˆì—­, ë¬¸ì„œ ë¶„ë¥˜ì™€ ê´€ë ¨ëœ ë‚´ìš©ì´ í¬í•¨ë˜ì–´ ìˆìŠµë‹ˆë‹¤. ì˜ˆë¥¼ ë“¤ì–´, ëª¨í˜¸ì„± í•´ì†Œë¥¼ ìœ„í•´ ë‹´í™” ì§€ì‹ì´ í•„ìš”í•˜ë‹¤ëŠ” ì ê³¼ ê¸°ê³„ ë²ˆì—­ì˜ ì˜ˆì‹œê°€ ì œì‹œë˜ì–´ ìˆìŠµë‹ˆë‹¤.
+2024-12-12 16:08:21,063 - INFO - chat_history: [{'role': 'user', 'content': ' ì´ ê°•ì˜ëŠ” ì–´ëŠ ëŒ€í•™êµì—ì„œ ì œì‘í•œê±°ì•¼?'}, {'role': 'ai', 'content': 'ì´ ê°•ì˜ëŠ” ì¤‘ì•™ëŒ€í•™êµì—ì„œ ì œì‘í•œ ê²ƒì…ë‹ˆë‹¤.'}, {'role': 'user', 'content': ' ë°ì´í„° ì „ì²˜ë¦¬ì— ëŒ€í•œ ë‚´ìš©ë„ ìˆì–´?'}, {'role': 'ai', 'content': 'ì œê³µëœ ë¬¸ë§¥ì—ëŠ” ë°ì´í„° ì „ì²˜ë¦¬ì— ëŒ€í•œ ë‚´ìš©ì´ í¬í•¨ë˜ì–´ ìˆì§€ ì•ŠìŠµë‹ˆë‹¤.'}]
+2024-12-12 16:08:21,063 - INFO - Updated history for thread U084Y1C0X4H: [{'role': 'user', 'content': ' ì´ ê°•ì˜ëŠ” ì–´ëŠ ëŒ€í•™êµì—ì„œ ì œì‘í•œê±°ì•¼?'}, {'role': 'ai', 'content': 'ì´ ê°•ì˜ëŠ” ì¤‘ì•™ëŒ€í•™êµì—ì„œ ì œì‘í•œ ê²ƒì…ë‹ˆë‹¤.'}, {'role': 'user', 'content': ' ë°ì´í„° ì „ì²˜ë¦¬ì— ëŒ€í•œ ë‚´ìš©ë„ ìˆì–´?'}, {'role': 'ai', 'content': 'ì œê³µëœ ë¬¸ë§¥ì—ëŠ” ë°ì´í„° ì „ì²˜ë¦¬ì— ëŒ€í•œ ë‚´ìš©ì´ í¬í•¨ë˜ì–´ ìˆì§€ ì•ŠìŠµë‹ˆë‹¤.'}, {'role': 'user', 'content': ' ê·¸ëŸ¼ ì–´ë–¤ ë‚´ìš©ì´ ìˆì–´?'}, {'role': 'ai', 'content': 'ì œê³µëœ ë¬¸ë§¥ì—ëŠ” ìì—°ì–´ ì²˜ë¦¬(NLP)ì˜ ì†Œê°œ, ëª¨í˜¸ì„± í•´ì†Œ, ê¸°ê³„ ë²ˆì—­, ë¬¸ì„œ ë¶„ë¥˜ì™€ ê´€ë ¨ëœ ë‚´ìš©ì´ í¬í•¨ë˜ì–´ ìˆìŠµë‹ˆë‹¤. ì˜ˆë¥¼ ë“¤ì–´, ëª¨í˜¸ì„± í•´ì†Œë¥¼ ìœ„í•´ ë‹´í™” ì§€ì‹ì´ í•„ìš”í•˜ë‹¤ëŠ” ì ê³¼ ê¸°ê³„ ë²ˆì—­ì˜ ì˜ˆì‹œê°€ ì œì‹œë˜ì–´ ìˆìŠµë‹ˆë‹¤.'}]
+2024-12-12 16:08:39,368 - INFO - User U084Y1C0X4H:  NLPê°€ ë­ì•¼?
