@@ -17,6 +17,7 @@ from slack_bolt.adapter.socket_mode import SocketModeHandler
 
 from add_document import initialize_vectorstore
 
+# 로깅 설정
 logging.basicConfig(
     filename='log.log',
     level=logging.INFO,
@@ -53,7 +54,7 @@ class SlackStreamingCallbackHandler(BaseCallbackHandler):
 
     def __init__(self, channel, ts):
         self.channel = channel # Slack 채널 ID
-        self.ts = ts # 메시지 타임스탬프 (스레드 ID와 연결됨)
+        self.ts = ts # 메시지 타임스탬프
         self.interval = CHAT_UPDATE_INTERVAL_SEC # 메시지 전송 간격
         self.update_count = 0 # 메시지 업데이트 카운트
 
@@ -103,18 +104,21 @@ class SlackStreamingCallbackHandler(BaseCallbackHandler):
         )
 
 def format_docs(docs):
+    # 검색된 문서 내용을 로그에 기록하고 포맷하여 반환
     logging.info("Retrieved documents: " + "\n\n".join(doc.page_content for doc in docs))
     return "\n\n".join(doc.page_content for doc in docs)
 
-# Slack에서 멘션이 발생하면 호출되는 이벤트 처리 함수
 def handle_mention(event, say):
+    # Slack에서 멘션이 발생하면 호출되는 이벤트 처리 함수
     global user_histories  # 전역 변수를 사용
-    # 이벤트에서 채널과 타임스탬프 가져오기
+    # 이벤트에서 채널, 타임스탬프, 사용자 ID 가져오기
     channel = event["channel"]
     thread_ts=event["ts"]
-    user = event["user"]  # 메시지 보낸 사용자 ID 가져오기
-    message = re.sub("<@.*>", "", event["text"])  # 멘션 제거한 사용자 메시지 추출
+    user = event["user"] 
+    # 멘션 제거한 사용자 메시지 추출
+    message = re.sub("<@.*>", "", event["text"]) 
     logging.info(f"User {user}: {message}")
+
     # 사용자별로 대화 기록이 없으면 새로 생성
     if user not in user_histories:
         user_histories[user] = []
@@ -122,6 +126,7 @@ def handle_mention(event, say):
     # 해당 사용자의 대화 기록
     history = user_histories[user]
 
+    # 벡터스토어 초기화
     vectorstore = initialize_vectorstore()
     retriever = vectorstore.as_retriever()
 
@@ -129,6 +134,7 @@ def handle_mention(event, say):
     relevant_docs = retriever.invoke(message)
     formatted_context = format_docs(relevant_docs)
 
+    # 검색 쿼리를 생성하기 위한 프롬프트 템플릿 정의
     rephrase_prompt = ChatPromptTemplate.from_messages(
         [
             MessagesPlaceholder(variable_name="chat_history"),  # Placeholder for chat history
@@ -159,10 +165,12 @@ def handle_mention(event, say):
         callbacks=[callback]
     )
 
+    # ChatOpenAI 모델에 대한 히스토리 기반 검색 체인 생성
     rephrase_chain = create_history_aware_retriever(
         rephrase_llm, retriever, rephrase_prompt
     )
 
+    # 질문에 답하기 위한 프롬프트 템플릿 정의
     qa_prompt = ChatPromptTemplate.from_messages(
         [
             ("system", "아래의 문맥만을 고려하여 질문에 답하세요. \n\n{context}"),  # System prompt
@@ -171,7 +179,7 @@ def handle_mention(event, say):
         ]
     )
 
-    # ChatOpenAI를 통해 모델 호출 (스트리밍 활성화)
+    # ChatOpenAI 모델을 통해 질문에 답변하는 체인 생성
     qa_llm = ChatOpenAI(
         model_name='gpt-4o-mini',
         temperature=0,
@@ -179,12 +187,19 @@ def handle_mention(event, say):
         callbacks=[callback]
     )
 
-        # chain 생성
+    # 질문과 답변을 처리하는 체인 생성
     qa_chain = qa_prompt | qa_llm | StrOutputParser()
+
+    """
+    conversational_retriever_chain은 여러 개의 체인을 연결한 파이프라인입니다.
+    이 파이프라인은 rephrase_chain에서 생성된 정보를 qa_chain에 전달하여
+    최종적으로 사용자의 질문에 대한 답을 생성하는 과정입니다.
+    """
 
     conversational_retriever_chain = (
         RunnablePassthrough.assign(context=rephrase_chain | format_docs) | qa_chain
     )
+
     # AI 응답 생성
     ai_message = conversational_retriever_chain.invoke(
         {
