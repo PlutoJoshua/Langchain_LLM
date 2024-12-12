@@ -629,3 +629,35 @@ Document Classification
 2024-12-12 16:08:21,063 - INFO - chat_history: [{'role': 'user', 'content': ' 이 강의는 어느 대학교에서 제작한거야?'}, {'role': 'ai', 'content': '이 강의는 중앙대학교에서 제작한 것입니다.'}, {'role': 'user', 'content': ' 데이터 전처리에 대한 내용도 있어?'}, {'role': 'ai', 'content': '제공된 문맥에는 데이터 전처리에 대한 내용이 포함되어 있지 않습니다.'}]
 2024-12-12 16:08:21,063 - INFO - Updated history for thread U084Y1C0X4H: [{'role': 'user', 'content': ' 이 강의는 어느 대학교에서 제작한거야?'}, {'role': 'ai', 'content': '이 강의는 중앙대학교에서 제작한 것입니다.'}, {'role': 'user', 'content': ' 데이터 전처리에 대한 내용도 있어?'}, {'role': 'ai', 'content': '제공된 문맥에는 데이터 전처리에 대한 내용이 포함되어 있지 않습니다.'}, {'role': 'user', 'content': ' 그럼 어떤 내용이 있어?'}, {'role': 'ai', 'content': '제공된 문맥에는 자연어 처리(NLP)의 소개, 모호성 해소, 기계 번역, 문서 분류와 관련된 내용이 포함되어 있습니다. 예를 들어, 모호성 해소를 위해 담화 지식이 필요하다는 점과 기계 번역의 예시가 제시되어 있습니다.'}]
 2024-12-12 16:08:39,368 - INFO - User U084Y1C0X4H:  NLP가 뭐야?
+2024-12-12 16:08:42,471 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\JOSHUA\\miniconda3\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-12 16:08:42,472 - INFO - Looking for plugins in pinecone_plugins.inference
+2024-12-12 16:08:42,472 - INFO - Installing plugin inference into Pinecone
+2024-12-12 16:08:44,899 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-12 16:08:46,828 - INFO - Retrieved documents: Natural Language ProcessingIntroduction to NLP
+Junyeong KimDept. of AI, Chung-AngUniversity
+
+Natural Language ProcessingSpring, 2024
+Machine Translation¡INPUT:    My name is Bob and I live in NY!¡OUTPUT: 내 이름은 밥이고나는 뉴욕에 살아!
+
+Natural Language ProcessingSpring, 2024
+What is Natural Language Processing?¡In a nutshell, NLP consists in handling the complexities of natural languages “to do something”lRaw text / speech àStructured informationlRaw text / speech à(Controlled) Text/Speech¡In this course, we will focus on textual data
+
+Natural Language ProcessingSpring, 2024
+Why Natural Language Processing?¡What do we use language for?lWe communicateusing languagelWe think(partly) with languagelWe tell stories in languagelWe build Scientific Theories with languagelWe make friends/build relationshipswith language¡Why NLP?lAccess Knowledge (search engine, recommender system, and so on)lCommunicate(e.g., Translation)lLinguistics and Cognitive Sciences (AnalyseLanguages themselves)
+2024-12-12 16:08:52,619 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 16:08:54,970 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-12 16:08:55,178 - INFO - Retrieved documents: Natural Language ProcessingIntroduction to NLP
+Junyeong KimDept. of AI, Chung-AngUniversity
+
+Natural Language ProcessingSpring, 2024
+Why Natural Language Processing?¡What do we use language for?lWe communicateusing languagelWe think(partly) with languagelWe tell stories in languagelWe build Scientific Theories with languagelWe make friends/build relationshipswith language¡Why NLP?lAccess Knowledge (search engine, recommender system, and so on)lCommunicate(e.g., Translation)lLinguistics and Cognitive Sciences (AnalyseLanguages themselves)
+
+Natural Language ProcessingSpring, 2024
+Machine Translation¡INPUT:    My name is Bob and I live in NY!¡OUTPUT: 내 이름은 밥이고나는 뉴욕에 살아!
+
+Natural Language ProcessingSpring, 2024
+What is Natural Language Processing?¡In a nutshell, NLP consists in handling the complexities of natural languages “to do something”lRaw text / speech àStructured informationlRaw text / speech à(Controlled) Text/Speech¡In this course, we will focus on textual data
+2024-12-12 16:08:55,819 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 16:08:57,149 - INFO - AI massage: NLP는 자연어 처리(Natural Language Processing)의 약자로, 자연어의 복잡성을 다루어 정보를 처리하거나 변환하는 기술입니다. NLP는 원시 텍스트나 음성을 구조화된 정보로 변환하거나, 제어된 텍스트/음성으로 변환하는 작업을 포함합니다. 이 강의에서는 주로 텍스트 데이터에 초점을 맞추고 있습니다.
+2024-12-12 16:08:57,149 - INFO - chat_history: [{'role': 'user', 'content': ' 이 강의는 어느 대학교에서 제작한거야?'}, {'role': 'ai', 'content': '이 강의는 중앙대학교에서 제작한 것입니다.'}, {'role': 'user', 'content': ' 데이터 전처리에 대한 내용도 있어?'}, {'role': 'ai', 'content': '제공된 문맥에는 데이터 전처리에 대한 내용이 포함되어 있지 않습니다.'}, {'role': 'user', 'content': ' 그럼 어떤 내용이 있어?'}, {'role': 'ai', 'content': '제공된 문맥에는 자연어 처리(NLP)의 소개, 모호성 해소, 기계 번역, 문서 분류와 관련된 내용이 포함되어 있습니다. 예를 들어, 모호성 해소를 위해 담화 지식이 필요하다는 점과 기계 번역의 예시가 제시되어 있습니다.'}]
+2024-12-12 16:08:57,149 - INFO - Updated history for thread U084Y1C0X4H: [{'role': 'user', 'content': ' 이 강의는 어느 대학교에서 제작한거야?'}, {'role': 'ai', 'content': '이 강의는 중앙대학교에서 제작한 것입니다.'}, {'role': 'user', 'content': ' 데이터 전처리에 대한 내용도 있어?'}, {'role': 'ai', 'content': '제공된 문맥에는 데이터 전처리에 대한 내용이 포함되어 있지 않습니다.'}, {'role': 'user', 'content': ' 그럼 어떤 내용이 있어?'}, {'role': 'ai', 'content': '제공된 문맥에는 자연어 처리(NLP)의 소개, 모호성 해소, 기계 번역, 문서 분류와 관련된 내용이 포함되어 있습니다. 예를 들어, 모호성 해소를 위해 담화 지식이 필요하다는 점과 기계 번역의 예시가 제시되어 있습니다.'}, {'role': 'user', 'content': ' NLP가 뭐야?'}, {'role': 'ai', 'content': 'NLP는 자연어 처리(Natural Language Processing)의 약자로, 자연어의 복잡성을 다루어 정보를 처리하거나 변환하는 기술입니다. NLP는 원시 텍스트나 음성을 구조화된 정보로 변환하거나, 제어된 텍스트/음성으로 변환하는 작업을 포함합니다. 이 강의에서는 주로 텍스트 데이터에 초점을 맞추고 있습니다.'}]
