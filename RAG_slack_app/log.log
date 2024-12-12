@@ -661,3 +661,82 @@ What is Natural Language Processing?¡In a nutshell, NLP consists in handling th
 2024-12-12 16:08:57,149 - INFO - AI massage: NLP는 자연어 처리(Natural Language Processing)의 약자로, 자연어의 복잡성을 다루어 정보를 처리하거나 변환하는 기술입니다. NLP는 원시 텍스트나 음성을 구조화된 정보로 변환하거나, 제어된 텍스트/음성으로 변환하는 작업을 포함합니다. 이 강의에서는 주로 텍스트 데이터에 초점을 맞추고 있습니다.
 2024-12-12 16:08:57,149 - INFO - chat_history: [{'role': 'user', 'content': ' 이 강의는 어느 대학교에서 제작한거야?'}, {'role': 'ai', 'content': '이 강의는 중앙대학교에서 제작한 것입니다.'}, {'role': 'user', 'content': ' 데이터 전처리에 대한 내용도 있어?'}, {'role': 'ai', 'content': '제공된 문맥에는 데이터 전처리에 대한 내용이 포함되어 있지 않습니다.'}, {'role': 'user', 'content': ' 그럼 어떤 내용이 있어?'}, {'role': 'ai', 'content': '제공된 문맥에는 자연어 처리(NLP)의 소개, 모호성 해소, 기계 번역, 문서 분류와 관련된 내용이 포함되어 있습니다. 예를 들어, 모호성 해소를 위해 담화 지식이 필요하다는 점과 기계 번역의 예시가 제시되어 있습니다.'}]
 2024-12-12 16:08:57,149 - INFO - Updated history for thread U084Y1C0X4H: [{'role': 'user', 'content': ' 이 강의는 어느 대학교에서 제작한거야?'}, {'role': 'ai', 'content': '이 강의는 중앙대학교에서 제작한 것입니다.'}, {'role': 'user', 'content': ' 데이터 전처리에 대한 내용도 있어?'}, {'role': 'ai', 'content': '제공된 문맥에는 데이터 전처리에 대한 내용이 포함되어 있지 않습니다.'}, {'role': 'user', 'content': ' 그럼 어떤 내용이 있어?'}, {'role': 'ai', 'content': '제공된 문맥에는 자연어 처리(NLP)의 소개, 모호성 해소, 기계 번역, 문서 분류와 관련된 내용이 포함되어 있습니다. 예를 들어, 모호성 해소를 위해 담화 지식이 필요하다는 점과 기계 번역의 예시가 제시되어 있습니다.'}, {'role': 'user', 'content': ' NLP가 뭐야?'}, {'role': 'ai', 'content': 'NLP는 자연어 처리(Natural Language Processing)의 약자로, 자연어의 복잡성을 다루어 정보를 처리하거나 변환하는 기술입니다. NLP는 원시 텍스트나 음성을 구조화된 정보로 변환하거나, 제어된 텍스트/음성으로 변환하는 작업을 포함합니다. 이 강의에서는 주로 텍스트 데이터에 초점을 맞추고 있습니다.'}]
+2024-12-12 18:05:18,331 - INFO - User U084Y1C0X4H:  왜 nlp야?
+2024-12-12 18:05:21,625 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\JOSHUA\\miniconda3\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-12 18:05:21,630 - INFO - Looking for plugins in pinecone_plugins.inference
+2024-12-12 18:05:21,630 - INFO - Installing plugin inference into Pinecone
+2024-12-12 18:05:25,079 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-12 18:05:27,986 - INFO - Retrieved documents: Natural Language ProcessingIntroduction to NLP
+Junyeong KimDept. of AI, Chung-AngUniversity
+
+Natural Language ProcessingSpring, 2024
+Why Natural Language Processing?¡What do we use language for?lWe communicateusing languagelWe think(partly) with languagelWe tell stories in languagelWe build Scientific Theories with languagelWe make friends/build relationshipswith language¡Why NLP?lAccess Knowledge (search engine, recommender system, and so on)lCommunicate(e.g., Translation)lLinguistics and Cognitive Sciences (AnalyseLanguages themselves)
+
+Natural Language ProcessingSpring, 2024
+Brief History of NLP
+
+Natural Language ProcessingSpring, 2024
+Machine Translation¡INPUT:    My name is Bob and I live in NY!¡OUTPUT: 내 이름은 밥이고나는 뉴욕에 살아!
+2024-12-12 18:05:37,495 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 18:05:40,233 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-12 18:05:40,506 - INFO - Retrieved documents: Natural Language ProcessingIntroduction to NLP
+Junyeong KimDept. of AI, Chung-AngUniversity
+
+Natural Language ProcessingSpring, 2024
+Machine Translation¡INPUT:    My name is Bob and I live in NY!¡OUTPUT: 내 이름은 밥이고나는 뉴욕에 살아!
+
+Natural Language ProcessingSpring, 2024
+Why Natural Language Processing¡What Products?lSearch: +2 billion Google users, 700 millions Baidu userslSocial Media: +3 billion users of Social media (Facebook, Instagram, WeChat, Twitter…)lVoice assistant: +100 million users (Alexa, Siri, Google Assistant)lMachine Translation: 500M users for google translate
+
+Natural Language ProcessingSpring, 2024
+Why Natural Language Processing?¡What do we use language for?lWe communicateusing languagelWe think(partly) with languagelWe tell stories in languagelWe build Scientific Theories with languagelWe make friends/build relationshipswith language¡Why NLP?lAccess Knowledge (search engine, recommender system, and so on)lCommunicate(e.g., Translation)lLinguistics and Cognitive Sciences (AnalyseLanguages themselves)
+2024-12-12 18:05:41,609 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 18:05:48,007 - INFO - AI massage: NLP(자연어 처리)가 중요한 이유는 다음과 같습니다:
+
+1. **정보 접근**: 검색 엔진, 추천 시스템 등을 통해 지식에 접근할 수 있게 해줍니다.
+2. **의사소통**: 번역과 같은 기능을 통해 다양한 언어를 사용하는 사람들 간의 의사소통을 가능하게 합니다.
+3. **언어 분석**: 언어 자체를 분석하여 언어학 및 인지 과학에 기여합니다.
+
+이러한 이유로 NLP는 현대 사회에서 매우 중요한 역할을 하고 있습니다.
+2024-12-12 18:05:48,007 - INFO - chat_history: [{'role': 'user', 'content': ' 이 강의는 어느 대학교에서 제작한거야?'}, {'role': 'ai', 'content': '이 강의는 중앙대학교에서 제작한 것입니다.'}, {'role': 'user', 'content': ' 데이터 전처리에 대한 내용도 있어?'}, {'role': 'ai', 'content': '제공된 문맥에는 데이터 전처리에 대한 내용이 포함되어 있지 않습니다.'}, {'role': 'user', 'content': ' 그럼 어떤 내용이 있어?'}, {'role': 'ai', 'content': '제공된 문맥에는 자연어 처리(NLP)의 소개, 모호성 해소, 기계 번역, 문서 분류와 관련된 내용이 포함되어 있습니다. 예를 들어, 모호성 해소를 위해 담화 지식이 필요하다는 점과 기계 번역의 예시가 제시되어 있습니다.'}, {'role': 'user', 'content': ' NLP가 뭐야?'}, {'role': 'ai', 'content': 'NLP는 자연어 처리(Natural Language Processing)의 약자로, 자연어의 복잡성을 다루어 정보를 처리하거나 변환하는 기술입니다. NLP는 원시 텍스트나 음성을 구조화된 정보로 변환하거나, 제어된 텍스트/음성으로 변환하는 작업을 포함합니다. 이 강의에서는 주로 텍스트 데이터에 초점을 맞추고 있습니다.'}]
+2024-12-12 18:05:48,008 - INFO - Updated history for thread U084Y1C0X4H: [{'role': 'user', 'content': ' 이 강의는 어느 대학교에서 제작한거야?'}, {'role': 'ai', 'content': '이 강의는 중앙대학교에서 제작한 것입니다.'}, {'role': 'user', 'content': ' 데이터 전처리에 대한 내용도 있어?'}, {'role': 'ai', 'content': '제공된 문맥에는 데이터 전처리에 대한 내용이 포함되어 있지 않습니다.'}, {'role': 'user', 'content': ' 그럼 어떤 내용이 있어?'}, {'role': 'ai', 'content': '제공된 문맥에는 자연어 처리(NLP)의 소개, 모호성 해소, 기계 번역, 문서 분류와 관련된 내용이 포함되어 있습니다. 예를 들어, 모호성 해소를 위해 담화 지식이 필요하다는 점과 기계 번역의 예시가 제시되어 있습니다.'}, {'role': 'user', 'content': ' NLP가 뭐야?'}, {'role': 'ai', 'content': 'NLP는 자연어 처리(Natural Language Processing)의 약자로, 자연어의 복잡성을 다루어 정보를 처리하거나 변환하는 기술입니다. NLP는 원시 텍스트나 음성을 구조화된 정보로 변환하거나, 제어된 텍스트/음성으로 변환하는 작업을 포함합니다. 이 강의에서는 주로 텍스트 데이터에 초점을 맞추고 있습니다.'}, {'role': 'user', 'content': ' 왜 nlp야?'}, {'role': 'ai', 'content': 'NLP(자연어 처리)가 중요한 이유는 다음과 같습니다:\n\n1. **정보 접근**: 검색 엔진, 추천 시스템 등을 통해 지식에 접근할 수 있게 해줍니다.\n2. **의사소통**: 번역과 같은 기능을 통해 다양한 언어를 사용하는 사람들 간의 의사소통을 가능하게 합니다.\n3. **언어 분석**: 언어 자체를 분석하여 언어학 및 인지 과학에 기여합니다.\n\n이러한 이유로 NLP는 현대 사회에서 매우 중요한 역할을 하고 있습니다.'}]
+2024-12-12 18:07:39,688 - INFO - User U084Y1C0X4H:  왜 언어는 모델이 어려운거야?
+2024-12-12 18:07:42,491 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\JOSHUA\\miniconda3\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-12 18:07:42,492 - INFO - Looking for plugins in pinecone_plugins.inference
+2024-12-12 18:07:42,492 - INFO - Installing plugin inference into Pinecone
+2024-12-12 18:07:45,302 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-12 18:07:47,735 - INFO - Retrieved documents: Natural Language ProcessingSpring, 2024
+Machine Translation¡INPUT:    My name is Bob and I live in NY!¡OUTPUT: 내 이름은 밥이고나는 뉴욕에 살아!
+
+Natural Language ProcessingSpring, 2024
+Why Language is hard to model?¡Let’s look at the definition of LanguagelDefinition 1: Language is a means to communicate, it is a semiotic system. By that we simply mean that it is a set of signs. A sign is a pair consisting in […] a signifier and a signified.lDefinition 2: A sign consists in a phonological structure, a morphological structure, a syntactic structure and a semantic structure.
+
+Natural Language ProcessingIntroduction to NLP
+Junyeong KimDept. of AI, Chung-AngUniversity
+
+Natural Language ProcessingSpring, 2024
+1949: First Machine Translation Model¡1949 Memorandum on Translation, Warren Weaver First to propose the idea of using “electronic computers” to do translation¡Using Shannon’s information theory to frame Machine Translation as a cryptographic problem¡Modeling context to disambiguate between word senses¡“Going down” from each language to universal language in order to translate
+2024-12-12 18:07:54,956 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 18:08:02,047 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-12 18:08:02,484 - INFO - Retrieved documents: Natural Language ProcessingIntroduction to NLP
+Junyeong KimDept. of AI, Chung-AngUniversity
+
+Natural Language ProcessingSpring, 2024
+Why Natural Language Processing?¡What do we use language for?lWe communicateusing languagelWe think(partly) with languagelWe tell stories in languagelWe build Scientific Theories with languagelWe make friends/build relationshipswith language¡Why NLP?lAccess Knowledge (search engine, recommender system, and so on)lCommunicate(e.g., Translation)lLinguistics and Cognitive Sciences (AnalyseLanguages themselves)
+
+Natural Language ProcessingSpring, 2024
+Machine Translation¡INPUT:    My name is Bob and I live in NY!¡OUTPUT: 내 이름은 밥이고나는 뉴욕에 살아!
+
+Natural Language ProcessingSpring, 2024
+What is Natural Language Processing?¡In a nutshell, NLP consists in handling the complexities of natural languages “to do something”lRaw text / speech àStructured informationlRaw text / speech à(Controlled) Text/Speech¡In this course, we will focus on textual data
+2024-12-12 18:08:03,287 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 18:08:05,874 - INFO - AI massage: 제공된 문맥에는 언어가 모델링하기 어려운 이유에 대한 구체적인 설명이 포함되어 있지 않습니다. 그러나 일반적으로 언어는 다음과 같은 이유로 모델링하기 어려운 것으로 알려져 있습니다:
+
+1. **모호성**: 같은 단어가 여러 의미를 가질 수 있어 문맥에 따라 해석이 달라질 수 있습니다.
+2. **문법적 복잡성**: 각 언어마다 고유한 문법 규칙이 있으며, 이 규칙들이 복잡하게 얽혀 있습니다.
+3. **비유적 표현**: 은유, 관용구 등과 같은 비유적 표현은 문자 그대로의 의미와 다르게 해석되어야 합니다.
+4. **문화적 차이**: 언어는 문화와 밀접하게 연결되어 있어, 특정 문화적 배경을 이해하지 못하면 언어의 의미를 제대로 파악하기 어렵습니다.
+
+이러한 요소들이 언어 모델링을 복잡하게 만듭니다.
+2024-12-12 18:08:05,875 - INFO - chat_history: [{'role': 'user', 'content': ' 이 강의는 어느 대학교에서 제작한거야?'}, {'role': 'ai', 'content': '이 강의는 중앙대학교에서 제작한 것입니다.'}, {'role': 'user', 'content': ' 데이터 전처리에 대한 내용도 있어?'}, {'role': 'ai', 'content': '제공된 문맥에는 데이터 전처리에 대한 내용이 포함되어 있지 않습니다.'}, {'role': 'user', 'content': ' 그럼 어떤 내용이 있어?'}, {'role': 'ai', 'content': '제공된 문맥에는 자연어 처리(NLP)의 소개, 모호성 해소, 기계 번역, 문서 분류와 관련된 내용이 포함되어 있습니다. 예를 들어, 모호성 해소를 위해 담화 지식이 필요하다는 점과 기계 번역의 예시가 제시되어 있습니다.'}, {'role': 'user', 'content': ' NLP가 뭐야?'}, {'role': 'ai', 'content': 'NLP는 자연어 처리(Natural Language Processing)의 약자로, 자연어의 복잡성을 다루어 정보를 처리하거나 변환하는 기술입니다. NLP는 원시 텍스트나 음성을 구조화된 정보로 변환하거나, 제어된 텍스트/음성으로 변환하는 작업을 포함합니다. 이 강의에서는 주로 텍스트 데이터에 초점을 맞추고 있습니다.'}, {'role': 'user', 'content': ' 왜 nlp야?'}, {'role': 'ai', 'content': 'NLP(자연어 처리)가 중요한 이유는 다음과 같습니다:\n\n1. **정보 접근**: 검색 엔진, 추천 시스템 등을 통해 지식에 접근할 수 있게 해줍니다.\n2. **의사소통**: 번역과 같은 기능을 통해 다양한 언어를 사용하는 사람들 간의 의사소통을 가능하게 합니다.\n3. **언어 분석**: 언어 자체를 분석하여 언어학 및 인지 과학에 기여합니다.\n\n이러한 이유로 NLP는 현대 사회에서 매우 중요한 역할을 하고 있습니다.'}]
+2024-12-12 18:08:05,876 - INFO - Updated history for thread U084Y1C0X4H: [{'role': 'user', 'content': ' 이 강의는 어느 대학교에서 제작한거야?'}, {'role': 'ai', 'content': '이 강의는 중앙대학교에서 제작한 것입니다.'}, {'role': 'user', 'content': ' 데이터 전처리에 대한 내용도 있어?'}, {'role': 'ai', 'content': '제공된 문맥에는 데이터 전처리에 대한 내용이 포함되어 있지 않습니다.'}, {'role': 'user', 'content': ' 그럼 어떤 내용이 있어?'}, {'role': 'ai', 'content': '제공된 문맥에는 자연어 처리(NLP)의 소개, 모호성 해소, 기계 번역, 문서 분류와 관련된 내용이 포함되어 있습니다. 예를 들어, 모호성 해소를 위해 담화 지식이 필요하다는 점과 기계 번역의 예시가 제시되어 있습니다.'}, {'role': 'user', 'content': ' NLP가 뭐야?'}, {'role': 'ai', 'content': 'NLP는 자연어 처리(Natural Language Processing)의 약자로, 자연어의 복잡성을 다루어 정보를 처리하거나 변환하는 기술입니다. NLP는 원시 텍스트나 음성을 구조화된 정보로 변환하거나, 제어된 텍스트/음성으로 변환하는 작업을 포함합니다. 이 강의에서는 주로 텍스트 데이터에 초점을 맞추고 있습니다.'}, {'role': 'user', 'content': ' 왜 nlp야?'}, {'role': 'ai', 'content': 'NLP(자연어 처리)가 중요한 이유는 다음과 같습니다:\n\n1. **정보 접근**: 검색 엔진, 추천 시스템 등을 통해 지식에 접근할 수 있게 해줍니다.\n2. **의사소통**: 번역과 같은 기능을 통해 다양한 언어를 사용하는 사람들 간의 의사소통을 가능하게 합니다.\n3. **언어 분석**: 언어 자체를 분석하여 언어학 및 인지 과학에 기여합니다.\n\n이러한 이유로 NLP는 현대 사회에서 매우 중요한 역할을 하고 있습니다.'}, {'role': 'user', 'content': ' 왜 언어는 모델이 어려운거야?'}, {'role': 'ai', 'content': '제공된 문맥에는 언어가 모델링하기 어려운 이유에 대한 구체적인 설명이 포함되어 있지 않습니다. 그러나 일반적으로 언어는 다음과 같은 이유로 모델링하기 어려운 것으로 알려져 있습니다:\n\n1. **모호성**: 같은 단어가 여러 의미를 가질 수 있어 문맥에 따라 해석이 달라질 수 있습니다.\n2. **문법적 복잡성**: 각 언어마다 고유한 문법 규칙이 있으며, 이 규칙들이 복잡하게 얽혀 있습니다.\n3. **비유적 표현**: 은유, 관용구 등과 같은 비유적 표현은 문자 그대로의 의미와 다르게 해석되어야 합니다.\n4. **문화적 차이**: 언어는 문화와 밀접하게 연결되어 있어, 특정 문화적 배경을 이해하지 못하면 언어의 의미를 제대로 파악하기 어렵습니다.\n\n이러한 요소들이 언어 모델링을 복잡하게 만듭니다.'}]
